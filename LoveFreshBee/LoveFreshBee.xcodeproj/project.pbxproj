@@ -7,27 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0122F39D659797F8EC3FC1EA /* libPods-LoveFreshBee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D74C517ACC8EA77E0AC85EE6 /* libPods-LoveFreshBee.a */; };
 		21BC601E1DDF1FA9003CC1C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC601D1DDF1FA9003CC1C4 /* main.m */; };
 		21BC60211DDF1FA9003CC1C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60201DDF1FA9003CC1C4 /* AppDelegate.m */; };
-		21BC60241DDF1FA9003CC1C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60231DDF1FA9003CC1C4 /* ViewController.m */; };
-		21BC60271DDF1FA9003CC1C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BC60251DDF1FA9003CC1C4 /* Main.storyboard */; };
 		21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60281DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld */; };
 		21BC602C1DDF1FA9003CC1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */; };
 		21BC602F1DDF1FA9003CC1C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602D1DDF1FA9003CC1C4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04119FED40C8F5FAE2C90733 /* Pods-LoveFreshBee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBee.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee.release.xcconfig"; sourceTree = "<group>"; };
 		21BC60191DDF1FA9003CC1C4 /* LoveFreshBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveFreshBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BC601D1DDF1FA9003CC1C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21BC601F1DDF1FA9003CC1C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21BC60201DDF1FA9003CC1C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		21BC60221DDF1FA9003CC1C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		21BC60231DDF1FA9003CC1C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		21BC60261DDF1FA9003CC1C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21BC60291DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoveFreshBee.xcdatamodel; sourceTree = "<group>"; };
 		21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BC602E1DDF1FA9003CC1C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21BC60301DDF1FA9003CC1C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C0B942AAAF476A01AE2662 /* Pods-LoveFreshBee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee.debug.xcconfig"; sourceTree = "<group>"; };
+		D74C517ACC8EA77E0AC85EE6 /* libPods-LoveFreshBee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoveFreshBee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0122F39D659797F8EC3FC1EA /* libPods-LoveFreshBee.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +46,8 @@
 			children = (
 				21BC601B1DDF1FA9003CC1C4 /* LoveFreshBee */,
 				21BC601A1DDF1FA9003CC1C4 /* Products */,
+				E786C4662A2FCA23E1126C41 /* Pods */,
+				A80975EB640F52211D87E22B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +64,6 @@
 			children = (
 				21BC601F1DDF1FA9003CC1C4 /* AppDelegate.h */,
 				21BC60201DDF1FA9003CC1C4 /* AppDelegate.m */,
-				21BC60221DDF1FA9003CC1C4 /* ViewController.h */,
-				21BC60231DDF1FA9003CC1C4 /* ViewController.m */,
-				21BC60251DDF1FA9003CC1C4 /* Main.storyboard */,
-				21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */,
-				21BC602D1DDF1FA9003CC1C4 /* LaunchScreen.storyboard */,
-				21BC60301DDF1FA9003CC1C4 /* Info.plist */,
-				21BC60281DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld */,
 				21BC601C1DDF1FA9003CC1C4 /* Supporting Files */,
 			);
 			path = LoveFreshBee;
@@ -77,9 +72,30 @@
 		21BC601C1DDF1FA9003CC1C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */,
+				21BC602D1DDF1FA9003CC1C4 /* LaunchScreen.storyboard */,
+				21BC60301DDF1FA9003CC1C4 /* Info.plist */,
+				21BC60281DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld */,
 				21BC601D1DDF1FA9003CC1C4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A80975EB640F52211D87E22B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D74C517ACC8EA77E0AC85EE6 /* libPods-LoveFreshBee.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E786C4662A2FCA23E1126C41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8C0B942AAAF476A01AE2662 /* Pods-LoveFreshBee.debug.xcconfig */,
+				04119FED40C8F5FAE2C90733 /* Pods-LoveFreshBee.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21BC60331DDF1FA9003CC1C4 /* Build configuration list for PBXNativeTarget "LoveFreshBee" */;
 			buildPhases = (
+				E1AEF6038B26AE175C57CE2D /* [CP] Check Pods Manifest.lock */,
 				21BC60151DDF1FA9003CC1C4 /* Sources */,
 				21BC60161DDF1FA9003CC1C4 /* Frameworks */,
 				21BC60171DDF1FA9003CC1C4 /* Resources */,
+				A74D79EF2FD682C395578C89 /* [CP] Embed Pods Frameworks */,
+				635B43C9F88C1947AACB5B11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,18 +161,64 @@
 			files = (
 				21BC602F1DDF1FA9003CC1C4 /* LaunchScreen.storyboard in Resources */,
 				21BC602C1DDF1FA9003CC1C4 /* Assets.xcassets in Resources */,
-				21BC60271DDF1FA9003CC1C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		635B43C9F88C1947AACB5B11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74D79EF2FD682C395578C89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1AEF6038B26AE175C57CE2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		21BC60151DDF1FA9003CC1C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21BC60241DDF1FA9003CC1C4 /* ViewController.m in Sources */,
 				21BC60211DDF1FA9003CC1C4 /* AppDelegate.m in Sources */,
 				21BC601E1DDF1FA9003CC1C4 /* main.m in Sources */,
 				21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */,
@@ -163,14 +228,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		21BC60251DDF1FA9003CC1C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21BC60261DDF1FA9003CC1C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		21BC602D1DDF1FA9003CC1C4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +329,7 @@
 		};
 		21BC60341DDF1FA9003CC1C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C0B942AAAF476A01AE2662 /* Pods-LoveFreshBee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LoveFreshBee/Info.plist;
@@ -283,6 +341,7 @@
 		};
 		21BC60351DDF1FA9003CC1C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04119FED40C8F5FAE2C90733 /* Pods-LoveFreshBee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LoveFreshBee/Info.plist;
@@ -311,6 +370,7 @@
 				21BC60351DDF1FA9003CC1C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
