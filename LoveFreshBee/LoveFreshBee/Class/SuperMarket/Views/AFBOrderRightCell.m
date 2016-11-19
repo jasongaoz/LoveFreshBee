@@ -16,10 +16,15 @@
     // Initialization code
 }
 
+//让label在被选中状态背景颜色不变
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-    NSLog(@"点击了cell");
-    // Configure the view for the selected state
+    self.contentView.backgroundColor = [UIColor whiteColor];
 }
 
+//让label在高亮状态背景颜色不变
+- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated{
+    [super setHighlighted:highlighted animated:YES];
+    self.contentView.backgroundColor = [UIColor whiteColor];
+}
 @end

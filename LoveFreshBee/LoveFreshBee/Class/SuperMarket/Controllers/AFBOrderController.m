@@ -8,16 +8,19 @@
 
 #import "AFBOrderController.h"
 #import "AFBOrderRightCell.h"
+#import "AFBOrderLeftCell.h"
 #import "AFBOrderRightTableView.h"
+#import "AFBOrderLeftTableView.h"
 
 static NSString *orderRightCellID = @"orderRightCellID";
+static NSString *orderLeftCellID = @"orderLeftCellID";
 
 @interface AFBOrderController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
 @implementation AFBOrderController{
-    UITableView *_leftTableView;
+    AFBOrderLeftTableView *_leftTableView;
     AFBOrderRightTableView *_rightTableView;
 }
 
@@ -29,7 +32,7 @@ static NSString *orderRightCellID = @"orderRightCellID";
 - (void)setupUI{
     self.navigationItem.title = @"闪送超市";
     self.view.backgroundColor = [UIColor grayColor];
-    UITableView * leftTableView = [[UITableView alloc]init];
+    AFBOrderLeftTableView * leftTableView = [AFBOrderLeftTableView new];
     AFBOrderRightTableView * rightTableView = [AFBOrderRightTableView new];
     
     _leftTableView = leftTableView;
@@ -47,21 +50,38 @@ static NSString *orderRightCellID = @"orderRightCellID";
     rightTableView.delegate = self;
     
     //注册cell
+    [leftTableView registerClass:[AFBOrderLeftCell class] forCellReuseIdentifier:orderLeftCellID];
     [rightTableView registerNib:[UINib nibWithNibName:@"AFBOrderRightCell" bundle:nil] forCellReuseIdentifier:orderRightCellID];
     
+    [_leftTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.bottom.equalTo(self.view);
+        make.width.mas_equalTo(80);
+    }];
     
     [_rightTableView mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.top.equalTo(self.view).offset(64);
-        make.left.right.bottom.equalTo(self.view);
+        make.left.equalTo(leftTableView.mas_right);
+        make.right.bottom.equalTo(self.view);
 
     }];
+    
+    //MARK:让左边tableView默认选中第0行
+    NSIndexPath *selectedIndexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+    [leftTableView selectRowAtIndexPath:selectedIndexPath animated:NO scrollPosition:UITableViewScrollPositionNone];
     
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (tableView == _leftTableView) {
+        NSLog(@"如果点击的是左侧cell,切换数据源,当前切换到数据源%zd",indexPath.row+1);
+    }
+    NSLog(@"push到相对应页面");
 }
 
 #pragma mark - 实现数据源方法
@@ -73,7 +93,7 @@ static NSString *orderRightCellID = @"orderRightCellID";
         return 1;
     }
     
-    return 10;
+    return 1;
 }
 //行
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -82,26 +102,20 @@ static NSString *orderRightCellID = @"orderRightCellID";
         
         return 10;
     }
-    return 1;
+    return 5;
 }
 
 //cell
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
-    AFBOrderRightCell *cell = [tableView dequeueReusableCellWithIdentifier:orderRightCellID forIndexPath:indexPath];
-    
-//    if (tableView == _rightTableView) {
-//        
-//        cell.textLabel.text = @(indexPath.row).description;
-//        
-//    }else{//左边
-//        
-//        cell.textLabel.text = @(indexPath.row).description;
-//    }
+    NSString * cellID = orderLeftCellID;
+    if (tableView == _rightTableView) {
+        cellID = orderRightCellID;
+    }
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
+
     return cell;
-    
-    
+   
 }
 
 /*
