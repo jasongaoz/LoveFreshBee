@@ -15,6 +15,7 @@
 		21A105A61DE0413300A92BAE /* AFBShopCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A51DE0413300A92BAE /* AFBShopCarController.m */; };
 		21A105A91DE0414200A92BAE /* AFBHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A81DE0414200A92BAE /* AFBHomeController.m */; };
 		21A105AC1DE0416900A92BAE /* AFBOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105AB1DE0416900A92BAE /* AFBOrderController.m */; };
+		21A105AF1DE04C2B00A92BAE /* AFBOrderLeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105AE1DE04C2B00A92BAE /* AFBOrderLeftTableView.m */; };
 		21BC601E1DDF1FA9003CC1C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC601D1DDF1FA9003CC1C4 /* main.m */; };
 		21BC60211DDF1FA9003CC1C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60201DDF1FA9003CC1C4 /* AppDelegate.m */; };
 		21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60281DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld */; };
@@ -39,6 +40,8 @@
 		21A105A81DE0414200A92BAE /* AFBHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBHomeController.m; sourceTree = "<group>"; };
 		21A105AA1DE0416900A92BAE /* AFBOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderController.h; sourceTree = "<group>"; };
 		21A105AB1DE0416900A92BAE /* AFBOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderController.m; sourceTree = "<group>"; };
+		21A105AD1DE04C2B00A92BAE /* AFBOrderLeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFBOrderLeftTableView.h; path = Controllers/AFBOrderLeftTableView.h; sourceTree = "<group>"; };
+		21A105AE1DE04C2B00A92BAE /* AFBOrderLeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFBOrderLeftTableView.m; path = Controllers/AFBOrderLeftTableView.m; sourceTree = "<group>"; };
 		21BC60191DDF1FA9003CC1C4 /* LoveFreshBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveFreshBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BC601D1DDF1FA9003CC1C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21BC601F1DDF1FA9003CC1C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +83,10 @@
 			isa = PBXGroup;
 			children = (
 				21A1056C1DE01E5700A92BAE /* Controllers */,
+
+
+				1B8CB2C91DE047910021A7DC /* Model */,
+
 			);
 			name = "Home(首页)";
 			path = Home;
@@ -154,6 +161,8 @@
 		21A1057F1DE01E5700A92BAE /* SuperMarket(闪送超市) */ = {
 			isa = PBXGroup;
 			children = (
+				21A105AD1DE04C2B00A92BAE /* AFBOrderLeftTableView.h */,
+				21A105AE1DE04C2B00A92BAE /* AFBOrderLeftTableView.m */,
 				21A105801DE01E5700A92BAE /* Controllers */,
 			);
 			name = "SuperMarket(闪送超市)";
@@ -366,6 +375,7 @@
 				21A1059E1DE0410700A92BAE /* AFBBaseNavgationController.m in Sources */,
 				21A105A01DE0410700A92BAE /* AFBTabBarController.m in Sources */,
 				21A105A61DE0413300A92BAE /* AFBShopCarController.m in Sources */,
+				21A105AF1DE04C2B00A92BAE /* AFBOrderLeftTableView.m in Sources */,
 				21A105A91DE0414200A92BAE /* AFBHomeController.m in Sources */,
 				21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */,
 			);
