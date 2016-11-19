@@ -10,6 +10,9 @@
 
 @implementation AFBOrderRightCell
 
+
+
+
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code

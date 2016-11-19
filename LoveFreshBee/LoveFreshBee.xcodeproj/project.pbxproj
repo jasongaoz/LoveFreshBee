@@ -200,8 +200,8 @@
 		21A1057F1DE01E5700A92BAE /* SuperMarket(闪送超市) */ = {
 			isa = PBXGroup;
 			children = (
-				321B6BA41DE07A0500B16A0F /* Views */,
 				21A105801DE01E5700A92BAE /* Controllers */,
+				321B6BA41DE07A0500B16A0F /* Views */,
 			);
 			name = "SuperMarket(闪送超市)";
 			path = SuperMarket;
