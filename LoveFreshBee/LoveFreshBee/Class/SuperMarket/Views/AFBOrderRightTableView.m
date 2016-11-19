@@ -7,19 +7,23 @@
 //
 
 #import "AFBOrderRightTableView.h"
+#import "AFBOrderRightTableViewFootView.h"
+
 
 @implementation AFBOrderRightTableView
 
 - (instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style{
     if (self = [super initWithFrame:frame style:style]) {
         [self setupUI];
-
+        
     }
     return self;
 }
 
 - (void)setupUI{
     self.rowHeight = 80;
+    self.tableFooterView = [[AFBOrderRightTableViewFootView alloc]initWithFrame:CGRectMake(0, 0, self.width, 80)];
+    self.contentInset = UIEdgeInsetsMake(0, 0, 40, 0);
 }
 
 @end
