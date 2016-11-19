@@ -8,6 +8,7 @@
 
 #import "AFBOrderController.h"
 #import "AFBOrderRightCell.h"
+#import "AFBOrderRightTableView.h"
 
 static NSString *orderRightCellID = @"orderRightCellID";
 
@@ -17,7 +18,7 @@ static NSString *orderRightCellID = @"orderRightCellID";
 
 @implementation AFBOrderController{
     UITableView *_leftTableView;
-    UITableView *_rightTableView;
+    AFBOrderRightTableView *_rightTableView;
 }
 
 - (void)viewDidLoad {
@@ -29,7 +30,7 @@ static NSString *orderRightCellID = @"orderRightCellID";
     self.navigationItem.title = @"闪送超市";
     self.view.backgroundColor = [UIColor grayColor];
     UITableView * leftTableView = [[UITableView alloc]init];
-    UITableView * rightTableView = [[UITableView alloc]init];
+    AFBOrderRightTableView * rightTableView = [AFBOrderRightTableView new];
     
     _leftTableView = leftTableView;
     _rightTableView = rightTableView;
@@ -49,7 +50,7 @@ static NSString *orderRightCellID = @"orderRightCellID";
     [rightTableView registerNib:[UINib nibWithNibName:@"AFBOrderRightCell" bundle:nil] forCellReuseIdentifier:orderRightCellID];
     
     //自动行高
-    rightTableView.rowHeight = UITableViewAutomaticDimension;
+//    rightTableView.rowHeight = UITableViewAutomaticDimension;
     rightTableView.estimatedRowHeight = 80;
     
     //MARK:布局
