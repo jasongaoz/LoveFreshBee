@@ -8,15 +8,33 @@
 
 #import "AFBShopCarController.h"
 #import "AFBHomeController.h"
+#import <SVProgressHUD/SVProgressHUD.h>
 @interface AFBShopCarController ()
 
 @end
 
 @implementation AFBShopCarController
-
+{
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+//
+- (void)viewDidAppear:(BOOL)animated{
+    
+    [self loadData];
+}
+
+- (void)loadData{
+    self.shopModelList = @[@1,@2];
+    if (self.shopModelList) {
+        NSLog(@"加载数据");
+        [SVProgressHUD showWithStatus:@"正在验证商品信息"];
+    }else{
+        return;
+    }
 }
 
 - (void)setupUI{
@@ -26,7 +44,7 @@
     //这里要判断是否有数据,进入这个页面的时候
     
     
-    
+    NSLog(@"创建");
     UIImageView *shopView = [[UIImageView alloc] init];
     shopView.image = [UIImage imageNamed:@"v2_shop_empty"];
     [self.view addSubview:shopView];

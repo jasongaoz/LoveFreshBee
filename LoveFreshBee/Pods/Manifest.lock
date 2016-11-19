@@ -34,6 +34,7 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.0.4)
   - TPKeyboardAvoiding (1.3)
   - YYModel (1.0.4)
 
@@ -44,6 +45,7 @@ DEPENDENCIES:
   - MMDrawerController
   - PYSearch
   - SDWebImage
+  - SVProgressHUD
   - TPKeyboardAvoiding
   - YYModel
 
@@ -54,9 +56,10 @@ SPEC CHECKSUMS:
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   PYSearch: d7d89a358545f4f8ef3700197724162d1e0e2029
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
   TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 6e952eb99b0c7a1b34fdbd91437aef27d3917347
+PODFILE CHECKSUM: e9a63f0d6a6bc3024a5ea4c89100d268d2076dba
 
 COCOAPODS: 1.1.1
