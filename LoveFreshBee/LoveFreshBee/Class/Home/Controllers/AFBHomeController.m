@@ -21,6 +21,16 @@
 
 - (void)setupUI{
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    //MARK:创建主页的tableView
+    UITableView * mainTableView = [UITableView new];
+    
+    [self.view addSubview:mainTableView];
+    
+    [mainTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.edges.mas_equalTo(self.view);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
