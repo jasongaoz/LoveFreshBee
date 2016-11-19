@@ -120,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				21A1056C1DE01E5700A92BAE /* Controllers */,
+
 			);
 			name = "Home(首页)";
 			path = Home;
@@ -456,9 +457,6 @@
 				23382E5B1DE0678100551066 /* UIColor+Addition.m in Sources */,
 				23382E561DE0678100551066 /* NSArray+Log.m in Sources */,
 				21A105A61DE0413300A92BAE /* AFBShopCarController.m in Sources */,
-				23382E551DE0678100551066 /* NSArray+Addition.m in Sources */,
-				23382E131DE0636800551066 /* AFBBaseTableView.m in Sources */,
-				23382E571DE0678100551066 /* NSAttributedString+Additon.m in Sources */,
 				21A105A91DE0414200A92BAE /* AFBHomeController.m in Sources */,
 				21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */,
 				23382E591DE0678100551066 /* NSString+sandBox.m in Sources */,

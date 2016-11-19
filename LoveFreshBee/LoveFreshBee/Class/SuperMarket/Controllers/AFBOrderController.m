@@ -23,6 +23,7 @@
 }
 
 - (void)setupUI{
+    self.navigationItem.title = @"闪送超市";
     self.view.backgroundColor = [UIColor grayColor];
     UITableView * leftTableView = [[UITableView alloc]init];
     UITableView * rightTableView = [[UITableView alloc]init];
