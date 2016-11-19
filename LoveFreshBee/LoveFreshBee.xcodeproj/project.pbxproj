@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0122F39D659797F8EC3FC1EA /* libPods-LoveFreshBee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D74C517ACC8EA77E0AC85EE6 /* libPods-LoveFreshBee.a */; };
+		1B8CB2CC1DE0480A0021A7DC /* AFBHomeGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CB2CB1DE0480A0021A7DC /* AFBHomeGoodsModel.m */; };
 		21A1059E1DE0410700A92BAE /* AFBBaseNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105991DE0410600A92BAE /* AFBBaseNavgationController.m */; };
 		21A1059F1DE0410700A92BAE /* AFBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A1059B1DE0410600A92BAE /* AFBBaseViewController.m */; };
 		21A105A01DE0410700A92BAE /* AFBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A1059D1DE0410600A92BAE /* AFBTabBarController.m */; };
@@ -25,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		04119FED40C8F5FAE2C90733 /* Pods-LoveFreshBee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBee.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee.release.xcconfig"; sourceTree = "<group>"; };
+		1B8CB2CA1DE0480A0021A7DC /* AFBHomeGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBHomeGoodsModel.h; sourceTree = "<group>"; };
+		1B8CB2CB1DE0480A0021A7DC /* AFBHomeGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBHomeGoodsModel.m; sourceTree = "<group>"; };
 		21A1058B1DE038B900A92BAE /* AFB.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFB.pch; sourceTree = "<group>"; };
 		21A105981DE0410600A92BAE /* AFBBaseNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBBaseNavgationController.h; sourceTree = "<group>"; };
 		21A105991DE0410600A92BAE /* AFBBaseNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseNavgationController.m; sourceTree = "<group>"; };
@@ -66,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B8CB2C91DE047910021A7DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B8CB2CA1DE0480A0021A7DC /* AFBHomeGoodsModel.h */,
+				1B8CB2CB1DE0480A0021A7DC /* AFBHomeGoodsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		21A1056A1DE01E5700A92BAE /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				21A1056C1DE01E5700A92BAE /* Controllers */,
+
+				1B8CB2C91DE047910021A7DC /* Model */,
+
 			);
 			name = "Home(首页)";
 			path = Home;
@@ -369,6 +384,7 @@
 				21BC601E1DDF1FA9003CC1C4 /* main.m in Sources */,
 				21A1059F1DE0410700A92BAE /* AFBBaseViewController.m in Sources */,
 				21A1059E1DE0410700A92BAE /* AFBBaseNavgationController.m in Sources */,
+				1B8CB2CC1DE0480A0021A7DC /* AFBHomeGoodsModel.m in Sources */,
 				21A105A01DE0410700A92BAE /* AFBTabBarController.m in Sources */,
 				21A105A61DE0413300A92BAE /* AFBShopCarController.m in Sources */,
 				21A105AF1DE04C2B00A92BAE /* AFBOrderLeftTableView.m in Sources */,
