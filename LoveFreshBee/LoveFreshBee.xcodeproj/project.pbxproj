@@ -20,6 +20,9 @@
 		21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60281DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld */; };
 		21BC602C1DDF1FA9003CC1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */; };
 		21BC602F1DDF1FA9003CC1C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602D1DDF1FA9003CC1C4 /* LaunchScreen.storyboard */; };
+		321B6B951DE04C4000B16A0F /* AFBOrderRightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B6B941DE04C4000B16A0F /* AFBOrderRightTableView.m */; };
+		321B6B991DE04FA300B16A0F /* AFBOrderRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B6B971DE04FA300B16A0F /* AFBOrderRightCell.m */; };
+		321B6B9A1DE04FA300B16A0F /* AFBOrderRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321B6B981DE04FA300B16A0F /* AFBOrderRightCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,11 @@
 		21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BC602E1DDF1FA9003CC1C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21BC60301DDF1FA9003CC1C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321B6B931DE04C4000B16A0F /* AFBOrderRightTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderRightTableView.h; sourceTree = "<group>"; };
+		321B6B941DE04C4000B16A0F /* AFBOrderRightTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderRightTableView.m; sourceTree = "<group>"; };
+		321B6B961DE04FA300B16A0F /* AFBOrderRightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderRightCell.h; sourceTree = "<group>"; };
+		321B6B971DE04FA300B16A0F /* AFBOrderRightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderRightCell.m; sourceTree = "<group>"; };
+		321B6B981DE04FA300B16A0F /* AFBOrderRightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFBOrderRightCell.xib; sourceTree = "<group>"; };
 		B8C0B942AAAF476A01AE2662 /* Pods-LoveFreshBee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee.debug.xcconfig"; sourceTree = "<group>"; };
 		D74C517ACC8EA77E0AC85EE6 /* libPods-LoveFreshBee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoveFreshBee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,9 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				21A1056C1DE01E5700A92BAE /* Controllers */,
-				21A1056D1DE01E5700A92BAE /* Models */,
-				21A1056E1DE01E5700A92BAE /* Others */,
-				21A1056F1DE01E5700A92BAE /* Views */,
 			);
 			name = "Home(首页)";
 			path = Home;
@@ -97,34 +102,10 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		21A1056D1DE01E5700A92BAE /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		21A1056E1DE01E5700A92BAE /* Others */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		21A1056F1DE01E5700A92BAE /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		21A105701DE01E5700A92BAE /* Mains */ = {
 			isa = PBXGroup;
 			children = (
 				21A105711DE01E5700A92BAE /* Controllers */,
-				21A105721DE01E5700A92BAE /* Models */,
-				21A105731DE01E5700A92BAE /* Others */,
-				21A105741DE01E5700A92BAE /* Views */,
 			);
 			path = Mains;
 			sourceTree = "<group>";
@@ -142,34 +123,10 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		21A105721DE01E5700A92BAE /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		21A105731DE01E5700A92BAE /* Others */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		21A105741DE01E5700A92BAE /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		21A105751DE01E5700A92BAE /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
 				21A105761DE01E5700A92BAE /* Controllers */,
-				21A105771DE01E5700A92BAE /* Models */,
-				21A105781DE01E5700A92BAE /* Others */,
-				21A105791DE01E5700A92BAE /* Views */,
 			);
 			name = "Mine(我的)";
 			path = Mine;
@@ -184,34 +141,10 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		21A105771DE01E5700A92BAE /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		21A105781DE01E5700A92BAE /* Others */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		21A105791DE01E5700A92BAE /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		21A1057A1DE01E5700A92BAE /* ShopCar(购物车) */ = {
 			isa = PBXGroup;
 			children = (
 				21A1057B1DE01E5700A92BAE /* Controllers */,
-				21A1057C1DE01E5700A92BAE /* Models */,
-				21A1057D1DE01E5700A92BAE /* Others */,
-				21A1057E1DE01E5700A92BAE /* Views */,
 			);
 			name = "ShopCar(购物车)";
 			path = ShopCar;
@@ -226,34 +159,11 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		21A1057C1DE01E5700A92BAE /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		21A1057D1DE01E5700A92BAE /* Others */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		21A1057E1DE01E5700A92BAE /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		21A1057F1DE01E5700A92BAE /* SuperMarket(闪送超市) */ = {
 			isa = PBXGroup;
 			children = (
+				321B6B921DE04AF500B16A0F /* Views */,
 				21A105801DE01E5700A92BAE /* Controllers */,
-				21A105811DE01E5700A92BAE /* Models */,
-				21A105821DE01E5700A92BAE /* Others */,
-				21A105831DE01E5700A92BAE /* Views */,
 			);
 			name = "SuperMarket(闪送超市)";
 			path = SuperMarket;
@@ -266,27 +176,6 @@
 				21A105AB1DE0416900A92BAE /* AFBOrderController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		21A105811DE01E5700A92BAE /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		21A105821DE01E5700A92BAE /* Others */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		21A105831DE01E5700A92BAE /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		21A105841DE01E5700A92BAE /* Tools(工具) */ = {
@@ -337,6 +226,18 @@
 				21A1058B1DE038B900A92BAE /* AFB.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		321B6B921DE04AF500B16A0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				321B6B931DE04C4000B16A0F /* AFBOrderRightTableView.h */,
+				321B6B941DE04C4000B16A0F /* AFBOrderRightTableView.m */,
+				321B6B961DE04FA300B16A0F /* AFBOrderRightCell.h */,
+				321B6B971DE04FA300B16A0F /* AFBOrderRightCell.m */,
+				321B6B981DE04FA300B16A0F /* AFBOrderRightCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		A80975EB640F52211D87E22B /* Frameworks */ = {
@@ -420,6 +321,7 @@
 			files = (
 				21BC602F1DDF1FA9003CC1C4 /* LaunchScreen.storyboard in Resources */,
 				21BC602C1DDF1FA9003CC1C4 /* Assets.xcassets in Resources */,
+				321B6B9A1DE04FA300B16A0F /* AFBOrderRightCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,8 +385,10 @@
 				21A105AC1DE0416900A92BAE /* AFBOrderController.m in Sources */,
 				21BC601E1DDF1FA9003CC1C4 /* main.m in Sources */,
 				21A1059F1DE0410700A92BAE /* AFBBaseViewController.m in Sources */,
+				321B6B991DE04FA300B16A0F /* AFBOrderRightCell.m in Sources */,
 				21A1059E1DE0410700A92BAE /* AFBBaseNavgationController.m in Sources */,
 				21A105A01DE0410700A92BAE /* AFBTabBarController.m in Sources */,
+				321B6B951DE04C4000B16A0F /* AFBOrderRightTableView.m in Sources */,
 				21A105A61DE0413300A92BAE /* AFBShopCarController.m in Sources */,
 				21A105A91DE0414200A92BAE /* AFBHomeController.m in Sources */,
 				21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */,
