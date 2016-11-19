@@ -1,25 +1,22 @@
 //
-//  AFBShopMarketController.m
+//  AFBTabBarController.m
 //  LoveFreshBee
 //
 //  Created by gao2015 on 2016/11/19.
 //  Copyright © 2016年 gao2015. All rights reserved.
 //
 
-
-#import "AFBShopMarketController.h"
-
-@interface AFBShopMarketController ()
-
 #import "AFBTabBarController.h"
 #import "AFBBaseNavgationController.h"
 #import "AFBBaseViewController.h"
+@interface AFBTabBarController ()
 
-@implementation AFBShopMarketController
+@end
+
+@implementation AFBTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     [self setupUI];
 }
 

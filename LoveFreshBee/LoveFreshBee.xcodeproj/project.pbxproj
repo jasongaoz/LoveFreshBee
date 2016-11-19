@@ -8,37 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		0122F39D659797F8EC3FC1EA /* libPods-LoveFreshBee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D74C517ACC8EA77E0AC85EE6 /* libPods-LoveFreshBee.a */; };
-		21A1058A1DE0353500A92BAE /* AFBShopMarketController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105891DE0353500A92BAE /* AFBShopMarketController.m */; };
-		21A105941DE03DE100A92BAE /* AFBHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A1058D1DE03DE100A92BAE /* AFBHomeController.m */; };
-		21A105951DE03DE100A92BAE /* AFBMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A1058F1DE03DE100A92BAE /* AFBMineController.m */; };
-		21A105961DE03DE100A92BAE /* AFBOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105911DE03DE100A92BAE /* AFBOrderController.m */; };
-		21A105971DE03DE100A92BAE /* AFBShopCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105931DE03DE100A92BAE /* AFBShopCarController.m */; };
+		21A1059E1DE0410700A92BAE /* AFBBaseNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105991DE0410600A92BAE /* AFBBaseNavgationController.m */; };
+		21A1059F1DE0410700A92BAE /* AFBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A1059B1DE0410600A92BAE /* AFBBaseViewController.m */; };
+		21A105A01DE0410700A92BAE /* AFBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A1059D1DE0410600A92BAE /* AFBTabBarController.m */; };
+		21A105A31DE0411D00A92BAE /* AFBMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A21DE0411D00A92BAE /* AFBMineController.m */; };
+		21A105A61DE0413300A92BAE /* AFBShopCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A51DE0413300A92BAE /* AFBShopCarController.m */; };
+		21A105A91DE0414200A92BAE /* AFBHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A81DE0414200A92BAE /* AFBHomeController.m */; };
+		21A105AC1DE0416900A92BAE /* AFBOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105AB1DE0416900A92BAE /* AFBOrderController.m */; };
 		21BC601E1DDF1FA9003CC1C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC601D1DDF1FA9003CC1C4 /* main.m */; };
 		21BC60211DDF1FA9003CC1C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60201DDF1FA9003CC1C4 /* AppDelegate.m */; };
 		21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60281DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld */; };
 		21BC602C1DDF1FA9003CC1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */; };
 		21BC602F1DDF1FA9003CC1C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602D1DDF1FA9003CC1C4 /* LaunchScreen.storyboard */; };
-		23A3CA931DE033F400F9FDA0 /* AFBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CA921DE033F400F9FDA0 /* AFBBaseViewController.m */; };
-		23A3CA961DE0344400F9FDA0 /* AFBBaseNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CA951DE0344400F9FDA0 /* AFBBaseNavgationController.m */; };
-		23A3CA991DE038F200F9FDA0 /* AFBHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CA981DE038F200F9FDA0 /* AFBHomeController.m */; };
-		23A3CA9C1DE0390C00F9FDA0 /* AFBOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CA9B1DE0390C00F9FDA0 /* AFBOrderController.m */; };
-		23A3CA9F1DE0392C00F9FDA0 /* AFBShopCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CA9E1DE0392C00F9FDA0 /* AFBShopCarController.m */; };
-		23A3CAA21DE0394900F9FDA0 /* AFBMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CAA11DE0394800F9FDA0 /* AFBMineController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04119FED40C8F5FAE2C90733 /* Pods-LoveFreshBee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBee.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee.release.xcconfig"; sourceTree = "<group>"; };
-		21A105881DE0353500A92BAE /* AFBShopMarketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBShopMarketController.h; sourceTree = "<group>"; };
-		21A105891DE0353500A92BAE /* AFBShopMarketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBShopMarketController.m; sourceTree = "<group>"; };
 		21A1058B1DE038B900A92BAE /* AFB.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFB.pch; sourceTree = "<group>"; };
-		21A1058C1DE03DE100A92BAE /* AFBHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBHomeController.h; sourceTree = "<group>"; };
-		21A1058D1DE03DE100A92BAE /* AFBHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBHomeController.m; sourceTree = "<group>"; };
-		21A1058E1DE03DE100A92BAE /* AFBMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBMineController.h; sourceTree = "<group>"; };
-		21A1058F1DE03DE100A92BAE /* AFBMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBMineController.m; sourceTree = "<group>"; };
-		21A105901DE03DE100A92BAE /* AFBOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderController.h; sourceTree = "<group>"; };
-		21A105911DE03DE100A92BAE /* AFBOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderController.m; sourceTree = "<group>"; };
-		21A105921DE03DE100A92BAE /* AFBShopCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBShopCarController.h; sourceTree = "<group>"; };
-		21A105931DE03DE100A92BAE /* AFBShopCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBShopCarController.m; sourceTree = "<group>"; };
+		21A105981DE0410600A92BAE /* AFBBaseNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBBaseNavgationController.h; sourceTree = "<group>"; };
+		21A105991DE0410600A92BAE /* AFBBaseNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseNavgationController.m; sourceTree = "<group>"; };
+		21A1059A1DE0410600A92BAE /* AFBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBBaseViewController.h; sourceTree = "<group>"; };
+		21A1059B1DE0410600A92BAE /* AFBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseViewController.m; sourceTree = "<group>"; };
+		21A1059C1DE0410600A92BAE /* AFBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBTabBarController.h; sourceTree = "<group>"; };
+		21A1059D1DE0410600A92BAE /* AFBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBTabBarController.m; sourceTree = "<group>"; };
+		21A105A11DE0411D00A92BAE /* AFBMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBMineController.h; sourceTree = "<group>"; };
+		21A105A21DE0411D00A92BAE /* AFBMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBMineController.m; sourceTree = "<group>"; };
+		21A105A41DE0413300A92BAE /* AFBShopCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBShopCarController.h; sourceTree = "<group>"; };
+		21A105A51DE0413300A92BAE /* AFBShopCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBShopCarController.m; sourceTree = "<group>"; };
+		21A105A71DE0414100A92BAE /* AFBHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBHomeController.h; sourceTree = "<group>"; };
+		21A105A81DE0414200A92BAE /* AFBHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBHomeController.m; sourceTree = "<group>"; };
+		21A105AA1DE0416900A92BAE /* AFBOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderController.h; sourceTree = "<group>"; };
+		21A105AB1DE0416900A92BAE /* AFBOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderController.m; sourceTree = "<group>"; };
 		21BC60191DDF1FA9003CC1C4 /* LoveFreshBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveFreshBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BC601D1DDF1FA9003CC1C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21BC601F1DDF1FA9003CC1C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,18 +47,6 @@
 		21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BC602E1DDF1FA9003CC1C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21BC60301DDF1FA9003CC1C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23A3CA911DE033F400F9FDA0 /* AFBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBBaseViewController.h; sourceTree = "<group>"; };
-		23A3CA921DE033F400F9FDA0 /* AFBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseViewController.m; sourceTree = "<group>"; };
-		23A3CA941DE0344400F9FDA0 /* AFBBaseNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBBaseNavgationController.h; sourceTree = "<group>"; };
-		23A3CA951DE0344400F9FDA0 /* AFBBaseNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseNavgationController.m; sourceTree = "<group>"; };
-		23A3CA971DE038F200F9FDA0 /* AFBHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFBHomeController.h; path = LoveFreshBee/Class/Mains/Controllers/AFBHomeController.h; sourceTree = SOURCE_ROOT; };
-		23A3CA981DE038F200F9FDA0 /* AFBHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFBHomeController.m; path = LoveFreshBee/Class/Mains/Controllers/AFBHomeController.m; sourceTree = SOURCE_ROOT; };
-		23A3CA9A1DE0390C00F9FDA0 /* AFBOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFBOrderController.h; path = LoveFreshBee/Class/Mains/Controllers/AFBOrderController.h; sourceTree = SOURCE_ROOT; };
-		23A3CA9B1DE0390C00F9FDA0 /* AFBOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFBOrderController.m; path = LoveFreshBee/Class/Mains/Controllers/AFBOrderController.m; sourceTree = SOURCE_ROOT; };
-		23A3CA9D1DE0392C00F9FDA0 /* AFBShopCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFBShopCarController.h; path = LoveFreshBee/Class/Mains/Controllers/AFBShopCarController.h; sourceTree = SOURCE_ROOT; };
-		23A3CA9E1DE0392C00F9FDA0 /* AFBShopCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFBShopCarController.m; path = LoveFreshBee/Class/Mains/Controllers/AFBShopCarController.m; sourceTree = SOURCE_ROOT; };
-		23A3CAA01DE0394800F9FDA0 /* AFBMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFBMineController.h; path = LoveFreshBee/Class/Mains/Controllers/AFBMineController.h; sourceTree = SOURCE_ROOT; };
-		23A3CAA11DE0394800F9FDA0 /* AFBMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFBMineController.m; path = LoveFreshBee/Class/Mains/Controllers/AFBMineController.m; sourceTree = SOURCE_ROOT; };
 		B8C0B942AAAF476A01AE2662 /* Pods-LoveFreshBee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee.debug.xcconfig"; sourceTree = "<group>"; };
 		D74C517ACC8EA77E0AC85EE6 /* libPods-LoveFreshBee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoveFreshBee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,8 +91,8 @@
 		21A1056C1DE01E5700A92BAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				23A3CA971DE038F200F9FDA0 /* AFBHomeController.h */,
-				23A3CA981DE038F200F9FDA0 /* AFBHomeController.m */,
+				21A105A71DE0414100A92BAE /* AFBHomeController.h */,
+				21A105A81DE0414200A92BAE /* AFBHomeController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -144,18 +132,12 @@
 		21A105711DE01E5700A92BAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				23A3CA911DE033F400F9FDA0 /* AFBBaseViewController.h */,
-				23A3CA921DE033F400F9FDA0 /* AFBBaseViewController.m */,
-				23A3CA941DE0344400F9FDA0 /* AFBBaseNavgationController.h */,
-				23A3CA951DE0344400F9FDA0 /* AFBBaseNavgationController.m */,
-				21A1058C1DE03DE100A92BAE /* AFBHomeController.h */,
-				21A1058D1DE03DE100A92BAE /* AFBHomeController.m */,
-				21A1058E1DE03DE100A92BAE /* AFBMineController.h */,
-				21A1058F1DE03DE100A92BAE /* AFBMineController.m */,
-				21A105901DE03DE100A92BAE /* AFBOrderController.h */,
-				21A105911DE03DE100A92BAE /* AFBOrderController.m */,
-				21A105921DE03DE100A92BAE /* AFBShopCarController.h */,
-				21A105931DE03DE100A92BAE /* AFBShopCarController.m */,
+				21A105981DE0410600A92BAE /* AFBBaseNavgationController.h */,
+				21A105991DE0410600A92BAE /* AFBBaseNavgationController.m */,
+				21A1059A1DE0410600A92BAE /* AFBBaseViewController.h */,
+				21A1059B1DE0410600A92BAE /* AFBBaseViewController.m */,
+				21A1059C1DE0410600A92BAE /* AFBTabBarController.h */,
+				21A1059D1DE0410600A92BAE /* AFBTabBarController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -196,8 +178,8 @@
 		21A105761DE01E5700A92BAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				23A3CAA01DE0394800F9FDA0 /* AFBMineController.h */,
-				23A3CAA11DE0394800F9FDA0 /* AFBMineController.m */,
+				21A105A11DE0411D00A92BAE /* AFBMineController.h */,
+				21A105A21DE0411D00A92BAE /* AFBMineController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -238,8 +220,8 @@
 		21A1057B1DE01E5700A92BAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				23A3CA9D1DE0392C00F9FDA0 /* AFBShopCarController.h */,
-				23A3CA9E1DE0392C00F9FDA0 /* AFBShopCarController.m */,
+				21A105A41DE0413300A92BAE /* AFBShopCarController.h */,
+				21A105A51DE0413300A92BAE /* AFBShopCarController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -280,10 +262,8 @@
 		21A105801DE01E5700A92BAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				21A105881DE0353500A92BAE /* AFBShopMarketController.h */,
-				21A105891DE0353500A92BAE /* AFBShopMarketController.m */,
-				23A3CA9A1DE0390C00F9FDA0 /* AFBOrderController.h */,
-				23A3CA9B1DE0390C00F9FDA0 /* AFBOrderController.m */,
+				21A105AA1DE0416900A92BAE /* AFBOrderController.h */,
+				21A105AB1DE0416900A92BAE /* AFBOrderController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -498,20 +478,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21A105951DE03DE100A92BAE /* AFBMineController.m in Sources */,
-				23A3CA9C1DE0390C00F9FDA0 /* AFBOrderController.m in Sources */,
+				21A105A31DE0411D00A92BAE /* AFBMineController.m in Sources */,
 				21BC60211DDF1FA9003CC1C4 /* AppDelegate.m in Sources */,
-				21A1058A1DE0353500A92BAE /* AFBShopMarketController.m in Sources */,
-				23A3CAA21DE0394900F9FDA0 /* AFBMineController.m in Sources */,
-				23A3CA961DE0344400F9FDA0 /* AFBBaseNavgationController.m in Sources */,
-				21A105941DE03DE100A92BAE /* AFBHomeController.m in Sources */,
+				21A105AC1DE0416900A92BAE /* AFBOrderController.m in Sources */,
 				21BC601E1DDF1FA9003CC1C4 /* main.m in Sources */,
-				23A3CA931DE033F400F9FDA0 /* AFBBaseViewController.m in Sources */,
-				23A3CA991DE038F200F9FDA0 /* AFBHomeController.m in Sources */,
-				23A3CA9F1DE0392C00F9FDA0 /* AFBShopCarController.m in Sources */,
+				21A1059F1DE0410700A92BAE /* AFBBaseViewController.m in Sources */,
+				21A1059E1DE0410700A92BAE /* AFBBaseNavgationController.m in Sources */,
+				21A105A01DE0410700A92BAE /* AFBTabBarController.m in Sources */,
+				21A105A61DE0413300A92BAE /* AFBShopCarController.m in Sources */,
+				21A105A91DE0414200A92BAE /* AFBHomeController.m in Sources */,
 				21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */,
-				21A105971DE03DE100A92BAE /* AFBShopCarController.m in Sources */,
-				21A105961DE03DE100A92BAE /* AFBOrderController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
