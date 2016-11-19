@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>PYSearch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>Pods-LoveFreshBee.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -52,7 +57,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>2B02E688AD527278FDCA7C1C8D348322</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4315C9F8F86EC3D7834412464791DB95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>565DACF3CCDFEC74210E69839587EC90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>75ED37E3EC2BB27596E3CD48D012C267</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>76D5396AA09251C850F38CE52573703C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -78,6 +103,11 @@
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADB97D36B4D8F1789A34FE72DDD187D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AFBTabBarController.h"
+
 @interface AppDelegate ()
 
 @end

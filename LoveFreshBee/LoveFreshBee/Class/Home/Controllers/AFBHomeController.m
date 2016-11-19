@@ -19,8 +19,19 @@
     // Do any additional setup after loading the view.
 }
 
+#pragma mark - 搭建界面
 - (void)setupUI{
     self.view.backgroundColor = [UIColor yellowColor];
+    self.navigationItem.title = @"首页";
+    //MARK:创建主页的tableView
+    UITableView * mainTableView = [UITableView new];
+    
+    [self.view addSubview:mainTableView];
+    
+    [mainTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.edges.mas_equalTo(self.view);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -12,7 +12,10 @@
 
 @end
 
-@implementation AFBOrderController
+@implementation AFBOrderController{
+    UITableView *_leftTableView;
+    UITableView *_rightTableView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -20,7 +23,16 @@
 }
 
 - (void)setupUI{
+    self.navigationItem.title = @"闪送超市";
     self.view.backgroundColor = [UIColor grayColor];
+    UITableView * leftTableView = [[UITableView alloc]init];
+    UITableView * rightTableView = [[UITableView alloc]init];
+    
+    _leftTableView = leftTableView;
+    _rightTableView = rightTableView;
+    
+    [self.view addSubview:leftTableView];
+    [self.view addSubview:rightTableView];
 }
 
 - (void)didReceiveMemoryWarning {
