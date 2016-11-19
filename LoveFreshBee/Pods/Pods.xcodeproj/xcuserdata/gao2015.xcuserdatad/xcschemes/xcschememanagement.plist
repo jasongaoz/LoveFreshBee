@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MMDrawerController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TPKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YYModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,17 +47,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2C938C9D0ABDEF216D44F3AF14242F99</key>
+		<key>2086DCB1C9C1D487DFD624C1BE4C7E1E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6D13ACE4C3545F5D140877A34B94C1CC</key>
+		<key>75ED37E3EC2BB27596E3CD48D012C267</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78D29FDDA61F65D7244C402E10584DB5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91D593CDCF7F70766513EFCF7A622014</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A3C1BEE92A37481FC8E10964D1813BB7</key>
+		<key>C9F1FFA9F461771532D90EDE24F98479</key>
 		<dict>
 			<key>primary</key>
 			<true/>

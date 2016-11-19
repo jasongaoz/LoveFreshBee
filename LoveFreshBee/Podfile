@@ -11,4 +11,6 @@ target 'LoveFreshBee' do
   	pod 'Masonry'
   	pod 'FMDB'
   	pod 'YYModel'
+  	pod 'MMDrawerController'
+  	pod 'TPKeyboardAvoiding'
 end
