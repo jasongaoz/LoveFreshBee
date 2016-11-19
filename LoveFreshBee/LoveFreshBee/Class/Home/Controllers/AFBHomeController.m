@@ -21,7 +21,7 @@
 
 - (void)setupUI{
     self.view.backgroundColor = [UIColor yellowColor];
-    
+    self.navigationItem.title = @"首页";
     //MARK:创建主页的tableView
     UITableView * mainTableView = [UITableView new];
     
