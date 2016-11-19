@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view.
 }
 
+#pragma mark - 搭建界面
 - (void)setupUI{
     self.view.backgroundColor = [UIColor yellowColor];
     
