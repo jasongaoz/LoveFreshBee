@@ -12,7 +12,10 @@
 
 @end
 
-@implementation AFBOrderController
+@implementation AFBOrderController{
+    UITableView *_leftTableView;
+    UITableView *_rightTableView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -21,6 +24,14 @@
 
 - (void)setupUI{
     self.view.backgroundColor = [UIColor grayColor];
+    UITableView * leftTableView = [[UITableView alloc]init];
+    UITableView * rightTableView = [[UITableView alloc]init];
+    
+    _leftTableView = leftTableView;
+    _rightTableView = rightTableView;
+    
+    [self.view addSubview:leftTableView];
+    [self.view addSubview:rightTableView];
 }
 
 - (void)didReceiveMemoryWarning {
