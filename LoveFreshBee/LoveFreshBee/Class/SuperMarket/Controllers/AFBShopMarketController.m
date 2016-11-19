@@ -1,21 +1,29 @@
 //
-//  AFBTabBarController.m
+//  AFBShopMarketController.m
 //  LoveFreshBee
 //
 //  Created by gao2015 on 2016/11/19.
 //  Copyright © 2016年 gao2015. All rights reserved.
 //
 
-#import "AFBTabBarController.h"
+#import "AFBShopMarketController.h"
 
-@interface AFBTabBarController ()
+@interface AFBShopMarketController ()
 
 @end
 
-@implementation AFBTabBarController
+@implementation AFBShopMarketController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    UITableView *leftTableView = [[UITableView alloc] init];
+//    UITableView *rightTableView = [[UITableView alloc] init];
+//    [self.view addSubview:leftTableView];
+//    [self.view addSubview:rightTableView];
+    
+    
+    
     // Do any additional setup after loading the view.
 }
 

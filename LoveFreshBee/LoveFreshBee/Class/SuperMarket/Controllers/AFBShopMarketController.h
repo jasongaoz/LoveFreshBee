@@ -1,5 +1,5 @@
 //
-//  AFBTabBarController.h
+//  AFBShopMarketController.h
 //  LoveFreshBee
 //
 //  Created by gao2015 on 2016/11/19.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AFBTabBarController : UITabBarController
+@interface AFBShopMarketController : UIViewController
 
 @end

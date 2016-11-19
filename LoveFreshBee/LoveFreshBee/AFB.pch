@@ -1,0 +1,16 @@
+//
+//  AFB.pch
+//  LoveFreshBee
+//
+//  Created by gao2015 on 2016/11/19.
+//  Copyright © 2016年 gao2015. All rights reserved.
+//
+
+#ifndef AFB_pch
+#define AFB_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Masonry.h>
+
+#endif /* AFB_pch */
