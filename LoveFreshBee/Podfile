@@ -13,4 +13,7 @@ target 'LoveFreshBee' do
   	pod 'YYModel'
   	pod 'MMDrawerController'
   	pod 'TPKeyboardAvoiding'
+  	pod 'PYSearch'
+    pod 'SVProgressHUD'
+	
 end
