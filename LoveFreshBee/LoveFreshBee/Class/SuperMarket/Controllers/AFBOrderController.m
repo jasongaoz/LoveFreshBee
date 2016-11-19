@@ -32,6 +32,37 @@ static NSString *orderLeftCellID = @"orderLeftCellID";
 - (void)setupUI{
     self.navigationItem.title = @"闪送超市";
     self.view.backgroundColor = [UIColor grayColor];
+
+    [self addTableView];
+    [self addNavigationItem];
+   
+}
+
+//MARK:添加 设置NavigationItem
+- (void)addNavigationItem{
+    //左侧
+    //不让系统渲染图片
+    UIImage *leftImage = [[UIImage imageNamed:@"icon_black_scancode"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIBarButtonItem * leftItem = [[UIBarButtonItem alloc]initWithImage:leftImage style:UIBarButtonItemStylePlain target:self action:@selector(clickLeftItem)];
+    self.navigationItem.leftBarButtonItem = leftItem;
+    
+    //右侧
+    //不让系统渲染图片
+    UIImage *rightImage = [[UIImage imageNamed:@"icon_search"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIBarButtonItem * rightItem = [[UIBarButtonItem alloc]initWithImage:rightImage style:UIBarButtonItemStylePlain target:self action:@selector(clickRightItem)];
+    self.navigationItem.rightBarButtonItem = rightItem;
+}
+
+- (void)clickLeftItem{
+    NSLog(@"点击了扫一扫");
+}
+
+- (void)clickRightItem{
+    NSLog(@"点击了搜索");
+}
+
+//MARK:添加 设置tableView
+- (void)addTableView{
     AFBOrderLeftTableView * leftTableView = [AFBOrderLeftTableView new];
     AFBOrderRightTableView * rightTableView = [AFBOrderRightTableView new];
     
@@ -63,13 +94,12 @@ static NSString *orderLeftCellID = @"orderLeftCellID";
         make.top.equalTo(self.view).offset(64);
         make.left.equalTo(leftTableView.mas_right);
         make.right.bottom.equalTo(self.view);
-
+        
     }];
     
     //MARK:让左边tableView默认选中第0行
     NSIndexPath *selectedIndexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     [leftTableView selectRowAtIndexPath:selectedIndexPath animated:NO scrollPosition:UITableViewScrollPositionNone];
-    
 }
 
 - (void)didReceiveMemoryWarning {
