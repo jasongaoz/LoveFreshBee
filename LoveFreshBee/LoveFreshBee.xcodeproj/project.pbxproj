@@ -14,6 +14,12 @@
 		21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60281DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld */; };
 		21BC602C1DDF1FA9003CC1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */; };
 		21BC602F1DDF1FA9003CC1C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602D1DDF1FA9003CC1C4 /* LaunchScreen.storyboard */; };
+		23A3CA931DE033F400F9FDA0 /* AFBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CA921DE033F400F9FDA0 /* AFBBaseViewController.m */; };
+		23A3CA961DE0344400F9FDA0 /* AFBBaseNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CA951DE0344400F9FDA0 /* AFBBaseNavgationController.m */; };
+		23A3CA991DE038F200F9FDA0 /* AFBHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CA981DE038F200F9FDA0 /* AFBHomeController.m */; };
+		23A3CA9C1DE0390C00F9FDA0 /* AFBOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CA9B1DE0390C00F9FDA0 /* AFBOrderController.m */; };
+		23A3CA9F1DE0392C00F9FDA0 /* AFBShopCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CA9E1DE0392C00F9FDA0 /* AFBShopCarController.m */; };
+		23A3CAA21DE0394900F9FDA0 /* AFBMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A3CAA11DE0394800F9FDA0 /* AFBMineController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,18 @@
 		21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BC602E1DDF1FA9003CC1C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21BC60301DDF1FA9003CC1C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A3CA911DE033F400F9FDA0 /* AFBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBBaseViewController.h; sourceTree = "<group>"; };
+		23A3CA921DE033F400F9FDA0 /* AFBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseViewController.m; sourceTree = "<group>"; };
+		23A3CA941DE0344400F9FDA0 /* AFBBaseNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBBaseNavgationController.h; sourceTree = "<group>"; };
+		23A3CA951DE0344400F9FDA0 /* AFBBaseNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseNavgationController.m; sourceTree = "<group>"; };
+		23A3CA971DE038F200F9FDA0 /* AFBHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFBHomeController.h; path = LoveFreshBee/Class/Mains/Controllers/AFBHomeController.h; sourceTree = SOURCE_ROOT; };
+		23A3CA981DE038F200F9FDA0 /* AFBHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFBHomeController.m; path = LoveFreshBee/Class/Mains/Controllers/AFBHomeController.m; sourceTree = SOURCE_ROOT; };
+		23A3CA9A1DE0390C00F9FDA0 /* AFBOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFBOrderController.h; path = LoveFreshBee/Class/Mains/Controllers/AFBOrderController.h; sourceTree = SOURCE_ROOT; };
+		23A3CA9B1DE0390C00F9FDA0 /* AFBOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFBOrderController.m; path = LoveFreshBee/Class/Mains/Controllers/AFBOrderController.m; sourceTree = SOURCE_ROOT; };
+		23A3CA9D1DE0392C00F9FDA0 /* AFBShopCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFBShopCarController.h; path = LoveFreshBee/Class/Mains/Controllers/AFBShopCarController.h; sourceTree = SOURCE_ROOT; };
+		23A3CA9E1DE0392C00F9FDA0 /* AFBShopCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFBShopCarController.m; path = LoveFreshBee/Class/Mains/Controllers/AFBShopCarController.m; sourceTree = SOURCE_ROOT; };
+		23A3CAA01DE0394800F9FDA0 /* AFBMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFBMineController.h; path = LoveFreshBee/Class/Mains/Controllers/AFBMineController.h; sourceTree = SOURCE_ROOT; };
+		23A3CAA11DE0394800F9FDA0 /* AFBMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFBMineController.m; path = LoveFreshBee/Class/Mains/Controllers/AFBMineController.m; sourceTree = SOURCE_ROOT; };
 		B8C0B942AAAF476A01AE2662 /* Pods-LoveFreshBee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee.debug.xcconfig"; sourceTree = "<group>"; };
 		D74C517ACC8EA77E0AC85EE6 /* libPods-LoveFreshBee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoveFreshBee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,6 +90,8 @@
 		21A1056C1DE01E5700A92BAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				23A3CA971DE038F200F9FDA0 /* AFBHomeController.h */,
+				23A3CA981DE038F200F9FDA0 /* AFBHomeController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -113,6 +133,10 @@
 			children = (
 				21A105851DE02EDB00A92BAE /* AFBTabBarController.h */,
 				21A105861DE02EDB00A92BAE /* AFBTabBarController.m */,
+				23A3CA911DE033F400F9FDA0 /* AFBBaseViewController.h */,
+				23A3CA921DE033F400F9FDA0 /* AFBBaseViewController.m */,
+				23A3CA941DE0344400F9FDA0 /* AFBBaseNavgationController.h */,
+				23A3CA951DE0344400F9FDA0 /* AFBBaseNavgationController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -153,6 +177,8 @@
 		21A105761DE01E5700A92BAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				23A3CAA01DE0394800F9FDA0 /* AFBMineController.h */,
+				23A3CAA11DE0394800F9FDA0 /* AFBMineController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -193,6 +219,8 @@
 		21A1057B1DE01E5700A92BAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				23A3CA9D1DE0392C00F9FDA0 /* AFBShopCarController.h */,
+				23A3CA9E1DE0392C00F9FDA0 /* AFBShopCarController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -233,6 +261,8 @@
 		21A105801DE01E5700A92BAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				23A3CA9A1DE0390C00F9FDA0 /* AFBOrderController.h */,
+				23A3CA9B1DE0390C00F9FDA0 /* AFBOrderController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -446,9 +476,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A3CA9C1DE0390C00F9FDA0 /* AFBOrderController.m in Sources */,
 				21BC60211DDF1FA9003CC1C4 /* AppDelegate.m in Sources */,
+				23A3CAA21DE0394900F9FDA0 /* AFBMineController.m in Sources */,
 				21A105871DE02EDB00A92BAE /* AFBTabBarController.m in Sources */,
+				23A3CA961DE0344400F9FDA0 /* AFBBaseNavgationController.m in Sources */,
 				21BC601E1DDF1FA9003CC1C4 /* main.m in Sources */,
+				23A3CA931DE033F400F9FDA0 /* AFBBaseViewController.m in Sources */,
+				23A3CA991DE038F200F9FDA0 /* AFBHomeController.m in Sources */,
+				23A3CA9F1DE0392C00F9FDA0 /* AFBShopCarController.m in Sources */,
 				21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

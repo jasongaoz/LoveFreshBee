@@ -7,7 +7,8 @@
 //
 
 #import "AFBTabBarController.h"
-
+#import "AFBBaseNavgationController.h"
+#import "AFBBaseViewController.h"
 @interface AFBTabBarController ()
 
 @end
@@ -16,8 +17,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setupUI];
 }
+
+- (void)setupUI{
+    NSDictionary * dic1 = @{@"vcName":@"AFBHomeController",@"image":@"v2_home",@"title":@"首页"};
+    NSDictionary * dic2 = @{@"vcName":@"AFBOrderController",@"image":@"v2_order",@"title":@"闪电超市"};
+    NSDictionary * dic3 = @{@"vcName":@"AFBShopCarController",@"image":@"shopCart",@"title":@"购物车"};
+    NSDictionary * dic4 = @{@"vcName":@"AFBMineController",@"image":@"v2_my",@"title":@"我的"};
+    AFBBaseNavgationController * vc1 = [self addViewControllerWithDic:dic1];
+    AFBBaseNavgationController * vc2 = [self addViewControllerWithDic:dic2];
+    AFBBaseNavgationController * vc3 = [self addViewControllerWithDic:dic3];
+    AFBBaseNavgationController * vc4 = [self addViewControllerWithDic:dic4];
+    
+    self.viewControllers = @[vc1,vc2,vc3,vc4];
+    [[UITabBar appearance]setTintColor:[UIColor grayColor]];
+}
+
+- (AFBBaseNavgationController *)addViewControllerWithDic:(NSDictionary *)dic{
+    Class class = NSClassFromString(dic[@"vcName"]);
+    AFBBaseViewController * vc = [class new];
+    vc.tabBarItem.image = [[UIImage imageNamed:[NSString stringWithFormat:@"%@",dic[@"image"]]]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    vc.tabBarItem.selectedImage = [[UIImage imageNamed:[NSString stringWithFormat:@"%@_selected",dic[@"image"]]]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    vc.tabBarItem.title = dic[@"title"];
+    
+    AFBBaseNavgationController * nvController = [[AFBBaseNavgationController alloc]initWithRootViewController:vc];
+    
+    return nvController;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
