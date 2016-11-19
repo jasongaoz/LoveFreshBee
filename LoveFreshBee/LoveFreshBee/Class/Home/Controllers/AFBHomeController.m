@@ -7,6 +7,7 @@
 //
 
 #import "AFBHomeController.h"
+#import "AFBHomeHeaderView.h"
 
 @interface AFBHomeController ()
 
@@ -32,21 +33,15 @@
         
         make.edges.mas_equalTo(self.view);
     }];
+    
+    //创建headerView
+    AFBHomeHeaderView * headerView = [AFBHomeHeaderView new];
+    
+    headerView.frame = CGRectMake(0, 0, 0, 200);
+    
+    mainTableView.tableHeaderView = headerView;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
