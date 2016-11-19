@@ -49,25 +49,12 @@ static NSString *orderRightCellID = @"orderRightCellID";
     //注册cell
     [rightTableView registerNib:[UINib nibWithNibName:@"AFBOrderRightCell" bundle:nil] forCellReuseIdentifier:orderRightCellID];
     
-    //自动行高
-//    rightTableView.rowHeight = UITableViewAutomaticDimension;
-    rightTableView.estimatedRowHeight = 80;
-    
-    //MARK:布局
-//    [leftTable mas_makeConstraints:^(MASConstraintMaker *make) {
-//        
-//        make.top.left.equalTo(self.view);
-//        make.width.mas_equalTo(86);
-//        make.bottom.equalTo(buyCarV.mas_top);
-//        
-//    }];
     
     [_rightTableView mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.top.equalTo(self.view).offset(64);
         make.left.right.bottom.equalTo(self.view);
-        
-        
+
     }];
     
 }

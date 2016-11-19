@@ -21,6 +21,7 @@
 		21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60281DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld */; };
 		21BC602C1DDF1FA9003CC1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */; };
 		21BC602F1DDF1FA9003CC1C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602D1DDF1FA9003CC1C4 /* LaunchScreen.storyboard */; };
+		23054C301DE0AB6C00EE005E /* AFBOrderLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23054C2F1DE0AB6C00EE005E /* AFBOrderLeftCell.m */; };
 		23382E561DE0678100551066 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382E401DE0678100551066 /* NSArray+Log.m */; };
 		23382E581DE0678100551066 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382E441DE0678100551066 /* NSObject+Addition.m */; };
 		23382E591DE0678100551066 /* NSString+sandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382E461DE0678100551066 /* NSString+sandBox.m */; };
@@ -63,6 +64,8 @@
 		21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BC602E1DDF1FA9003CC1C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21BC60301DDF1FA9003CC1C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23054C2E1DE0AB6C00EE005E /* AFBOrderLeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderLeftCell.h; sourceTree = "<group>"; };
+		23054C2F1DE0AB6C00EE005E /* AFBOrderLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderLeftCell.m; sourceTree = "<group>"; };
 		23382E111DE0636800551066 /* AFBBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBBaseTableView.h; sourceTree = "<group>"; };
 		23382E121DE0636800551066 /* AFBBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseTableView.m; sourceTree = "<group>"; };
 		23382E3C1DE0678100551066 /* AYAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYAddition.h; sourceTree = "<group>"; };
@@ -328,6 +331,8 @@
 				321B6BA71DE07A0500B16A0F /* AFBOrderRightCell.xib */,
 				321B6BA81DE07A0500B16A0F /* AFBOrderRightTableView.h */,
 				321B6BA91DE07A0500B16A0F /* AFBOrderRightTableView.m */,
+				23054C2E1DE0AB6C00EE005E /* AFBOrderLeftCell.h */,
+				23054C2F1DE0AB6C00EE005E /* AFBOrderLeftCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -495,6 +500,7 @@
 				23382E591DE0678100551066 /* NSString+sandBox.m in Sources */,
 				23382E5D1DE0678100551066 /* UIScreen+Addition.m in Sources */,
 				321B6BAA1DE07A0500B16A0F /* AFBOrderRightCell.m in Sources */,
+				23054C301DE0AB6C00EE005E /* AFBOrderLeftCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,6 +18,6 @@
 }
 
 - (void)setupUI{
-    self.rowHeight = 100;
+    self.rowHeight = 80;
 }
 @end

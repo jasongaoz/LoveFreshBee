@@ -1,5 +1,5 @@
 //
-//  AFBBaseTableView.h
+//  AFBOrderLeftCell.h
 //  LoveFreshBee
 //
 //  Created by Adam on 2016/11/19.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AFBBaseTableView : UITableView
-
+@interface AFBOrderLeftCell : UITableViewCell
 
 @end
