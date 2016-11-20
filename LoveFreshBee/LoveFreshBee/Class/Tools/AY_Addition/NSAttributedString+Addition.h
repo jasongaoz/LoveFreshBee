@@ -2,7 +2,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NSAttributedString (Additon)
+@interface NSAttributedString (Addition)
 
 /// 使用图像和文本生成上下排列的属性文本
 ///

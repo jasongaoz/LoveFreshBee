@@ -1,8 +1,8 @@
 
 
-#import "NSAttributedString+Additon.h"
+#import "NSAttributedString+Addition.h"
 
-@implementation NSAttributedString (dditon)
+@implementation NSAttributedString (Addition)
 
 + (instancetype)ay_imageTextWithImage:(UIImage *)image imageWH:(CGFloat)imageWH title:(NSString *)title fontSize:(CGFloat)fontSize titleColor:(UIColor *)titleColor spacing:(CGFloat)spacing {
     
