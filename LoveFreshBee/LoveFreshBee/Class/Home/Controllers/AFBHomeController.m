@@ -7,7 +7,12 @@
 //
 
 #import "AFBHomeController.h"
+<<<<<<< HEAD
 #import "AFBDownLoadManager.h"
+=======
+#import "AFBHomeHeaderView.h"
+
+>>>>>>> 9b169bfca3b4e2d322ef274c9a2d85ebddc61010
 @interface AFBHomeController ()
 
 @end
@@ -32,6 +37,7 @@
         
         make.edges.mas_equalTo(self.view);
     }];
+<<<<<<< HEAD
     [[AFBDownLoadManager shareManager] getHomeHotSaleDataParameters:@2 CompleteBlock:^(NSDictionary *dicH, NSString *reqid) {
         NSLog(@"%@",dicH);
     }];
@@ -39,16 +45,44 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+=======
+    
+    //创建headerView
+    AFBHomeHeaderView * headerView = [AFBHomeHeaderView new];
+    
+    headerView.frame = CGRectMake(0, 0, 0, 200);
+    
+    mainTableView.tableHeaderView = headerView;
+    
+    
+    //MARK:添加NavigationItem
+    [self addNavigationItem];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - 添加 设置NavigationItem
+- (void)addNavigationItem{
+    //左侧
+    //不让系统渲染图片
+    UIImage *leftImage = [[UIImage imageNamed:@"icon_black_scancode"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIBarButtonItem * leftItem = [[UIBarButtonItem alloc]initWithImage:leftImage style:UIBarButtonItemStylePlain target:self action:@selector(clickLeftItem)];
+    self.navigationItem.leftBarButtonItem = leftItem;
+    
+    //右侧
+    //不让系统渲染图片
+    UIImage *rightImage = [[UIImage imageNamed:@"icon_search"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIBarButtonItem * rightItem = [[UIBarButtonItem alloc]initWithImage:rightImage style:UIBarButtonItemStylePlain target:self action:@selector(clickRightItem)];
+    self.navigationItem.rightBarButtonItem = rightItem;
+>>>>>>> 9b169bfca3b4e2d322ef274c9a2d85ebddc61010
 }
-*/
+
+- (void)clickLeftItem{
+    NSLog(@"点击了扫一扫");
+}
+
+- (void)clickRightItem{
+    NSLog(@"点击了搜索");
+}
+
+
 
 @end

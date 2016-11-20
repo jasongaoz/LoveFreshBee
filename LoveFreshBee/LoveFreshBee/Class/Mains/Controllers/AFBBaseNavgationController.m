@@ -6,6 +6,7 @@
 //  Copyright © 2016年 gao2015. All rights reserved.
 //
 
+
 #import "AFBBaseNavgationController.h"
 
 @interface AFBBaseNavgationController ()
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setupUI];
+}
+
+- (void)setupUI{
+    self.navigationBar.barTintColor = kBaseColor;
 }
 
 - (void)didReceiveMemoryWarning {

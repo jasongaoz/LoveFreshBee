@@ -22,7 +22,7 @@
 
 - (void)setupUI{
     NSDictionary * dic1 = @{@"vcName":@"AFBHomeController",@"image":@"v2_home",@"title":@"首页"};
-    NSDictionary * dic2 = @{@"vcName":@"AFBOrderController",@"image":@"v2_order",@"title":@"闪电超市"};
+    NSDictionary * dic2 = @{@"vcName":@"AFBOrderController",@"image":@"v2_order",@"title":@"闪送超市"};
     NSDictionary * dic3 = @{@"vcName":@"AFBShopCarController",@"image":@"shopCart",@"title":@"购物车"};
     NSDictionary * dic4 = @{@"vcName":@"AFBMineController",@"image":@"v2_my",@"title":@"我的"};
     AFBBaseNavgationController * vc1 = [self addViewControllerWithDic:dic1];

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AFBOrderRightTableView : UITableView
+@interface AFBOrderRightTableView : AFBBaseTableView
 
 @end
