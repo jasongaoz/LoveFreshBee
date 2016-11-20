@@ -8,8 +8,10 @@
 
 #import "AFBHomeController.h"
 #import "AFBHomeHeaderView.h"
+#import "AFBHomeFlowLyout.h"
+#import "AFBHomeBodyFristCell.h"
 
-@interface AFBHomeController ()
+@interface AFBHomeController ()<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @end
 
@@ -18,19 +20,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self loadData];
 }
 
 #pragma mark - 搭建界面
 - (void)setupUI{
     self.view.backgroundColor = [UIColor yellowColor];
     self.navigationItem.title = @"首页";
-    //MARK:创建主页的tableView
-    UITableView * mainTableView = [UITableView new];
+    //MARK:创建主页的collection
+    AFBHomeFlowLyout *layout = [[AFBHomeFlowLyout alloc]init];
+    UICollectionView * mainCollectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
+    mainCollectionView.backgroundColor = [UIColor yellowColor];
+    mainCollectionView.dataSource = self;
+    mainCollectionView.delegate = self;
     
-    [self.view addSubview:mainTableView];
+    [mainCollectionView registerNib:[UINib nibWithNibName:@"AFBHomeBodyFristCell" bundle:nil] forCellWithReuseIdentifier:@"cell"];
     
-    [mainTableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        
+    [self.view addSubview:mainCollectionView];
+    
+    [mainCollectionView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(self.view);
     }];
     
@@ -39,11 +47,16 @@
     
     headerView.frame = CGRectMake(0, 0, 0, 200);
     
-    mainTableView.tableHeaderView = headerView;
-    
+//    mainTableView.tableHeaderView = headerView;
     
     //MARK:添加NavigationItem
     [self addNavigationItem];
+}
+
+#pragma mark - 加载数据
+- (void)loadData{
+    
+    
 }
 
 #pragma mark - 添加 设置NavigationItem
@@ -68,7 +81,29 @@
 - (void)clickRightItem{
     NSLog(@"点击了搜索");
 }
+#pragma mark - collectionDatasouce
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+    return 2;
+}
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return 4;
+}
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    AFBHomeBodyFristCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    cell.backgroundColor = [UIColor redColor];
+    return cell;
+    
+}
 
+#pragma mark -collectionDelegateFlowLayout
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 0) {
+        return CGSizeMake(self.view.self.bounds.size.width, 80);
+    }
+    CGFloat wigth = (self.view.bounds.size.width-5)/2;
+    return CGSizeMake(wigth, 100);
+    
+}
 
 
 @end
