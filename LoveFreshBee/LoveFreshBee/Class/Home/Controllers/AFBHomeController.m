@@ -7,7 +7,7 @@
 //
 
 #import "AFBHomeController.h"
-
+#import "AFBDownLoadManager.h"
 @interface AFBHomeController ()
 
 @end
@@ -32,8 +32,10 @@
         
         make.edges.mas_equalTo(self.view);
     }];
+    [[AFBDownLoadManager shareManager] getHomeHotSaleDataParameters:@2 CompleteBlock:^(NSDictionary *dicH, NSString *reqid) {
+        NSLog(@"%@",dicH);
+    }];
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
