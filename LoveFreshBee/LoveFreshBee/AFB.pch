@@ -13,10 +13,13 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #import <Masonry.h>
 #import "AFBBaseViewController.h"
-#import "AFBBaseTableView.h"
 #import "AYAddition.h"
+
+#import <AFNetworking.h>
+
 
 //主题颜色
 #define kBaseColor [UIColor ay_colorWithR:253 G:212 B:50 alpha:1.0]
+
 
 #endif /* AFB_pch */

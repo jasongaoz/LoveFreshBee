@@ -21,7 +21,9 @@
 }
 
 - (void)setupUI{
+
     self.navigationBar.barTintColor = kBaseColor;
+
 }
 
 - (void)didReceiveMemoryWarning {

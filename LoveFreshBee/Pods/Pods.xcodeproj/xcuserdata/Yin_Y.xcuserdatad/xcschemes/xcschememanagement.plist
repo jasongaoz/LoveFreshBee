@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>SDCycleScrollView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -77,6 +82,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4A0033C23CA105E3C356CDCF61994C2C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>55A7B0F8910305D442AB6C5C3684C37C</key>
 		<dict>
 			<key>primary</key>
@@ -87,7 +97,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5A6D184CAED937D943145F6E54C2B7DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>67E73A1C40A78A9A406C18BD1EACD67C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6CA2B49FA074C7484FC3CF355CA25E0B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,6 +132,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>87F40F9EDF554B6826BD65ABDFE0EB78</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>91D593CDCF7F70766513EFCF7A622014</key>
 		<dict>
 			<key>primary</key>
@@ -127,12 +152,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9FAAC7CC6595CC15CFDCDF6AB011FF96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>ADB97D36B4D8F1789A34FE72DDD187D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>B5C40C9C7822B1E3D0546623E5CDB719</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B86259BD7D787DD43FFD7C4275AF3AD6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -148,6 +183,11 @@
 			<true/>
 		</dict>
 		<key>F65A8E63322CC75552141F32A8E0603A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F77C8FFCE554D99B36425BE904B541C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

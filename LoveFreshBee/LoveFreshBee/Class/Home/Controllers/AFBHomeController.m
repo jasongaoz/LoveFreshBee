@@ -7,11 +7,18 @@
 //
 
 #import "AFBHomeController.h"
+#import "AFBDownLoadManager.h"
+
 #import "AFBHomeHeaderView.h"
 #import "AFBHomeFlowLyout.h"
 #import "AFBHomeBodyFristCell.h"
 
+
 @interface AFBHomeController ()<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+
+
+
+
 
 @end
 
@@ -41,6 +48,15 @@
     [mainCollectionView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(self.view);
     }];
+
+    [[AFBDownLoadManager shareManager] getHomeHotSaleDataParameters:@2 CompleteBlock:^(NSDictionary *dicH, NSString *reqid) {
+        NSLog(@"%@",dicH);
+    }];
+}
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+
     
     //创建headerView
     AFBHomeHeaderView * headerView = [AFBHomeHeaderView new];
@@ -72,6 +88,7 @@
     UIImage *rightImage = [[UIImage imageNamed:@"icon_search"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     UIBarButtonItem * rightItem = [[UIBarButtonItem alloc]initWithImage:rightImage style:UIBarButtonItemStylePlain target:self action:@selector(clickRightItem)];
     self.navigationItem.rightBarButtonItem = rightItem;
+
 }
 
 - (void)clickLeftItem{

@@ -8,28 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0122F39D659797F8EC3FC1EA /* libPods-LoveFreshBee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D74C517ACC8EA77E0AC85EE6 /* libPods-LoveFreshBee.a */; };
+
 		0A06FB821DE151CA00745666 /* AFBHomeBodyFristCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A06FB811DE151CA00745666 /* AFBHomeBodyFristCell.xib */; };
 		0A06FB851DE15F6700745666 /* AFBHomeBodySecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A06FB841DE15F6700745666 /* AFBHomeBodySecondCell.m */; };
 		0A06FB871DE15F7300745666 /* AFBHomeBodySecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A06FB861DE15F7300745666 /* AFBHomeBodySecondCell.xib */; };
 		0A1A577E1DE1486E009689F3 /* AFBHomeFlowLyout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1A577D1DE1486E009689F3 /* AFBHomeFlowLyout.m */; };
 		0AD2D2171DE150DD007662B1 /* AFBHomeBodyFristCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2D2161DE150DD007662B1 /* AFBHomeBodyFristCell.m */; };
 		1B8CB2E01DE0811D0021A7DC /* AFBHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CB2DF1DE0811D0021A7DC /* AFBHomeHeaderView.m */; };
+
+		2192AE191DE156CC00B3AEA1 /* AFBDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2192AE181DE156CC00B3AEA1 /* AFBDownLoadManager.m */; };
+
 		21A1059E1DE0410700A92BAE /* AFBBaseNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105991DE0410600A92BAE /* AFBBaseNavgationController.m */; };
 		21A1059F1DE0410700A92BAE /* AFBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A1059B1DE0410600A92BAE /* AFBBaseViewController.m */; };
 		21A105A01DE0410700A92BAE /* AFBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A1059D1DE0410600A92BAE /* AFBTabBarController.m */; };
-		21A105A31DE0411D00A92BAE /* AFBMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A21DE0411D00A92BAE /* AFBMineController.m */; };
 		21A105A61DE0413300A92BAE /* AFBShopCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A51DE0413300A92BAE /* AFBShopCarController.m */; };
 		21A105A91DE0414200A92BAE /* AFBHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A81DE0414200A92BAE /* AFBHomeController.m */; };
 		21A105AC1DE0416900A92BAE /* AFBOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105AB1DE0416900A92BAE /* AFBOrderController.m */; };
+		21A105BA1DE07EBE00A92BAE /* AFBShopCarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A105B81DE07EBE00A92BAE /* AFBShopCarCell.xib */; };
 		21BC601E1DDF1FA9003CC1C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC601D1DDF1FA9003CC1C4 /* main.m */; };
 		21BC60211DDF1FA9003CC1C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60201DDF1FA9003CC1C4 /* AppDelegate.m */; };
 		21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21BC60281DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld */; };
 		21BC602C1DDF1FA9003CC1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */; };
 		21BC602F1DDF1FA9003CC1C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BC602D1DDF1FA9003CC1C4 /* LaunchScreen.storyboard */; };
-		23054C301DE0AB6C00EE005E /* AFBOrderLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23054C2F1DE0AB6C00EE005E /* AFBOrderLeftCell.m */; };
-		23054C361DE0AE1300EE005E /* AFBOrderLeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23054C351DE0AE1300EE005E /* AFBOrderLeftTableView.m */; };
-		23054C391DE0AF2500EE005E /* AFBBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23054C381DE0AF2500EE005E /* AFBBaseTableView.m */; };
-		23054C3C1DE0D45500EE005E /* AFBOrderRightTableViewFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23054C3B1DE0D45500EE005E /* AFBOrderRightTableViewFootView.m */; };
 		23382E561DE0678100551066 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382E401DE0678100551066 /* NSArray+Log.m */; };
 		23382E581DE0678100551066 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382E441DE0678100551066 /* NSObject+Addition.m */; };
 		23382E591DE0678100551066 /* NSString+sandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382E461DE0678100551066 /* NSString+sandBox.m */; };
@@ -40,16 +40,11 @@
 		23382E5E1DE0678100551066 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382E501DE0678100551066 /* UIView+Addition.m */; };
 		23382E5F1DE0678100551066 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382E521DE0678100551066 /* UIView+Frame.m */; };
 		23382E601DE0678100551066 /* UIViewController+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382E541DE0678100551066 /* UIViewController+Addition.m */; };
-		23E1724A1DE13E8100BF5D57 /* NSAttributedString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E172491DE13E8100BF5D57 /* NSAttributedString+Addition.m */; };
-		321B6BAA1DE07A0500B16A0F /* AFBOrderRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B6BA61DE07A0500B16A0F /* AFBOrderRightCell.m */; };
-		321B6BAB1DE07A0500B16A0F /* AFBOrderRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321B6BA71DE07A0500B16A0F /* AFBOrderRightCell.xib */; };
-		321B6BAC1DE07A0500B16A0F /* AFBOrderRightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B6BA91DE07A0500B16A0F /* AFBOrderRightTableView.m */; };
-		321E92A91DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E92A81DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.m */; };
-		321E92AB1DE1221000FC6B20 /* AFBOrderIncreaseAndReduceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321E92AA1DE1221000FC6B20 /* AFBOrderIncreaseAndReduceView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04119FED40C8F5FAE2C90733 /* Pods-LoveFreshBee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBee.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee.release.xcconfig"; sourceTree = "<group>"; };
+
 		0A06FB811DE151CA00745666 /* AFBHomeBodyFristCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFBHomeBodyFristCell.xib; sourceTree = "<group>"; };
 		0A06FB831DE15F6700745666 /* AFBHomeBodySecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBHomeBodySecondCell.h; sourceTree = "<group>"; };
 		0A06FB841DE15F6700745666 /* AFBHomeBodySecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBHomeBodySecondCell.m; sourceTree = "<group>"; };
@@ -60,6 +55,10 @@
 		0AD2D2161DE150DD007662B1 /* AFBHomeBodyFristCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBHomeBodyFristCell.m; sourceTree = "<group>"; };
 		1B8CB2DE1DE0811D0021A7DC /* AFBHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBHomeHeaderView.h; sourceTree = "<group>"; };
 		1B8CB2DF1DE0811D0021A7DC /* AFBHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBHomeHeaderView.m; sourceTree = "<group>"; };
+
+		2192AE171DE156CC00B3AEA1 /* AFBDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBDownLoadManager.h; sourceTree = "<group>"; };
+		2192AE181DE156CC00B3AEA1 /* AFBDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBDownLoadManager.m; sourceTree = "<group>"; };
+
 		21A1058B1DE038B900A92BAE /* AFB.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFB.pch; sourceTree = "<group>"; };
 		21A105981DE0410600A92BAE /* AFBBaseNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBBaseNavgationController.h; sourceTree = "<group>"; };
 		21A105991DE0410600A92BAE /* AFBBaseNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseNavgationController.m; sourceTree = "<group>"; };
@@ -67,14 +66,13 @@
 		21A1059B1DE0410600A92BAE /* AFBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseViewController.m; sourceTree = "<group>"; };
 		21A1059C1DE0410600A92BAE /* AFBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBTabBarController.h; sourceTree = "<group>"; };
 		21A1059D1DE0410600A92BAE /* AFBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBTabBarController.m; sourceTree = "<group>"; };
-		21A105A11DE0411D00A92BAE /* AFBMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBMineController.h; sourceTree = "<group>"; };
-		21A105A21DE0411D00A92BAE /* AFBMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBMineController.m; sourceTree = "<group>"; };
 		21A105A41DE0413300A92BAE /* AFBShopCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBShopCarController.h; sourceTree = "<group>"; };
 		21A105A51DE0413300A92BAE /* AFBShopCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBShopCarController.m; sourceTree = "<group>"; };
 		21A105A71DE0414100A92BAE /* AFBHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBHomeController.h; sourceTree = "<group>"; };
 		21A105A81DE0414200A92BAE /* AFBHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBHomeController.m; sourceTree = "<group>"; };
 		21A105AA1DE0416900A92BAE /* AFBOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderController.h; sourceTree = "<group>"; };
 		21A105AB1DE0416900A92BAE /* AFBOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderController.m; sourceTree = "<group>"; };
+		21A105B81DE07EBE00A92BAE /* AFBShopCarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFBShopCarCell.xib; sourceTree = "<group>"; };
 		21BC60191DDF1FA9003CC1C4 /* LoveFreshBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveFreshBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BC601D1DDF1FA9003CC1C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21BC601F1DDF1FA9003CC1C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,14 +81,6 @@
 		21BC602B1DDF1FA9003CC1C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BC602E1DDF1FA9003CC1C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21BC60301DDF1FA9003CC1C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23054C2E1DE0AB6C00EE005E /* AFBOrderLeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderLeftCell.h; sourceTree = "<group>"; };
-		23054C2F1DE0AB6C00EE005E /* AFBOrderLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderLeftCell.m; sourceTree = "<group>"; };
-		23054C341DE0AE1300EE005E /* AFBOrderLeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderLeftTableView.h; sourceTree = "<group>"; };
-		23054C351DE0AE1300EE005E /* AFBOrderLeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderLeftTableView.m; sourceTree = "<group>"; };
-		23054C371DE0AF2500EE005E /* AFBBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBBaseTableView.h; sourceTree = "<group>"; };
-		23054C381DE0AF2500EE005E /* AFBBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseTableView.m; sourceTree = "<group>"; };
-		23054C3A1DE0D45500EE005E /* AFBOrderRightTableViewFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderRightTableViewFootView.h; sourceTree = "<group>"; };
-		23054C3B1DE0D45500EE005E /* AFBOrderRightTableViewFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderRightTableViewFootView.m; sourceTree = "<group>"; };
 		23382E3C1DE0678100551066 /* AYAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYAddition.h; sourceTree = "<group>"; };
 		23382E3D1DE0678100551066 /* NSArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
 		23382E3E1DE0678100551066 /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
@@ -114,16 +104,6 @@
 		23382E521DE0678100551066 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		23382E531DE0678100551066 /* UIViewController+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Addition.h"; sourceTree = "<group>"; };
 		23382E541DE0678100551066 /* UIViewController+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Addition.m"; sourceTree = "<group>"; };
-		23E172481DE13E8100BF5D57 /* NSAttributedString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Addition.h"; sourceTree = "<group>"; };
-		23E172491DE13E8100BF5D57 /* NSAttributedString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Addition.m"; sourceTree = "<group>"; };
-		321B6BA51DE07A0500B16A0F /* AFBOrderRightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderRightCell.h; sourceTree = "<group>"; };
-		321B6BA61DE07A0500B16A0F /* AFBOrderRightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderRightCell.m; sourceTree = "<group>"; };
-		321B6BA71DE07A0500B16A0F /* AFBOrderRightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFBOrderRightCell.xib; sourceTree = "<group>"; };
-		321B6BA81DE07A0500B16A0F /* AFBOrderRightTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderRightTableView.h; sourceTree = "<group>"; };
-		321B6BA91DE07A0500B16A0F /* AFBOrderRightTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderRightTableView.m; sourceTree = "<group>"; };
-		321E92A71DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderIncreaseAndReduceView.h; sourceTree = "<group>"; };
-		321E92A81DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderIncreaseAndReduceView.m; sourceTree = "<group>"; };
-		321E92AA1DE1221000FC6B20 /* AFBOrderIncreaseAndReduceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFBOrderIncreaseAndReduceView.xib; sourceTree = "<group>"; };
 		B8C0B942AAAF476A01AE2662 /* Pods-LoveFreshBee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee.debug.xcconfig"; sourceTree = "<group>"; };
 		D74C517ACC8EA77E0AC85EE6 /* libPods-LoveFreshBee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoveFreshBee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -165,8 +145,6 @@
 		1B8CB2D31DE068F00021A7DC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1B8CB2DE1DE0811D0021A7DC /* AFBHomeHeaderView.h */,
-				1B8CB2DF1DE0811D0021A7DC /* AFBHomeHeaderView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,19 +208,9 @@
 		21A105751DE01E5700A92BAE /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
-				21A105761DE01E5700A92BAE /* Controllers */,
 			);
 			name = "Mine(我的)";
 			path = Mine;
-			sourceTree = "<group>";
-		};
-		21A105761DE01E5700A92BAE /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				21A105A11DE0411D00A92BAE /* AFBMineController.h */,
-				21A105A21DE0411D00A92BAE /* AFBMineController.m */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		21A1057A1DE01E5700A92BAE /* ShopCar(购物车) */ = {
@@ -267,7 +235,6 @@
 			isa = PBXGroup;
 			children = (
 				21A105801DE01E5700A92BAE /* Controllers */,
-				321B6BA41DE07A0500B16A0F /* Views */,
 			);
 			name = "SuperMarket(闪送超市)";
 			path = SuperMarket;
@@ -327,8 +294,6 @@
 		23382E101DE0633700551066 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				23054C371DE0AF2500EE005E /* AFBBaseTableView.h */,
-				23054C381DE0AF2500EE005E /* AFBBaseTableView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -336,6 +301,8 @@
 		23382E3A1DE0678100551066 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				2192AE171DE156CC00B3AEA1 /* AFBDownLoadManager.h */,
+				2192AE181DE156CC00B3AEA1 /* AFBDownLoadManager.m */,
 				23382E3B1DE0678100551066 /* AY_Addition */,
 			);
 			path = Tools;
@@ -349,8 +316,6 @@
 				23382E3E1DE0678100551066 /* NSArray+Addition.m */,
 				23382E3F1DE0678100551066 /* NSArray+Log.h */,
 				23382E401DE0678100551066 /* NSArray+Log.m */,
-				23E172481DE13E8100BF5D57 /* NSAttributedString+Addition.h */,
-				23E172491DE13E8100BF5D57 /* NSAttributedString+Addition.m */,
 				23382E431DE0678100551066 /* NSObject+Addition.h */,
 				23382E441DE0678100551066 /* NSObject+Addition.m */,
 				23382E451DE0678100551066 /* NSString+sandBox.h */,
@@ -371,27 +336,6 @@
 				23382E541DE0678100551066 /* UIViewController+Addition.m */,
 			);
 			path = AY_Addition;
-			sourceTree = "<group>";
-		};
-		321B6BA41DE07A0500B16A0F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				321B6BA51DE07A0500B16A0F /* AFBOrderRightCell.h */,
-				321B6BA61DE07A0500B16A0F /* AFBOrderRightCell.m */,
-				321B6BA71DE07A0500B16A0F /* AFBOrderRightCell.xib */,
-				321E92A71DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.h */,
-				321E92A81DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.m */,
-				321E92AA1DE1221000FC6B20 /* AFBOrderIncreaseAndReduceView.xib */,
-				321B6BA81DE07A0500B16A0F /* AFBOrderRightTableView.h */,
-				321B6BA91DE07A0500B16A0F /* AFBOrderRightTableView.m */,
-				23054C2E1DE0AB6C00EE005E /* AFBOrderLeftCell.h */,
-				23054C2F1DE0AB6C00EE005E /* AFBOrderLeftCell.m */,
-				23054C341DE0AE1300EE005E /* AFBOrderLeftTableView.h */,
-				23054C351DE0AE1300EE005E /* AFBOrderLeftTableView.m */,
-				23054C3A1DE0D45500EE005E /* AFBOrderRightTableViewFootView.h */,
-				23054C3B1DE0D45500EE005E /* AFBOrderRightTableViewFootView.m */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		A80975EB640F52211D87E22B /* Frameworks */ = {
@@ -473,12 +417,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A105BA1DE07EBE00A92BAE /* AFBShopCarCell.xib in Resources */,
 				21BC602F1DDF1FA9003CC1C4 /* LaunchScreen.storyboard in Resources */,
+
 				321E92AB1DE1221000FC6B20 /* AFBOrderIncreaseAndReduceView.xib in Resources */,
 				0A06FB871DE15F7300745666 /* AFBHomeBodySecondCell.xib in Resources */,
 				0A06FB821DE151CA00745666 /* AFBHomeBodyFristCell.xib in Resources */,
+
+
 				21BC602C1DDF1FA9003CC1C4 /* Assets.xcassets in Resources */,
-				321B6BAB1DE07A0500B16A0F /* AFBOrderRightCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,24 +484,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				0AD2D2171DE150DD007662B1 /* AFBHomeBodyFristCell.m in Sources */,
 				23054C391DE0AF2500EE005E /* AFBBaseTableView.m in Sources */,
 				1B8CB2E01DE0811D0021A7DC /* AFBHomeHeaderView.m in Sources */,
 				21A105A31DE0411D00A92BAE /* AFBMineController.m in Sources */,
+
 				21BC60211DDF1FA9003CC1C4 /* AppDelegate.m in Sources */,
 				21A105AC1DE0416900A92BAE /* AFBOrderController.m in Sources */,
 				21BC601E1DDF1FA9003CC1C4 /* main.m in Sources */,
 				21A1059F1DE0410700A92BAE /* AFBBaseViewController.m in Sources */,
-				23054C3C1DE0D45500EE005E /* AFBOrderRightTableViewFootView.m in Sources */,
 				21A1059E1DE0410700A92BAE /* AFBBaseNavgationController.m in Sources */,
 				21A105A01DE0410700A92BAE /* AFBTabBarController.m in Sources */,
-				321B6BAC1DE07A0500B16A0F /* AFBOrderRightTableView.m in Sources */,
 				23382E5C1DE0678100551066 /* UILabel+Addition.m in Sources */,
+
 				23054C361DE0AE1300EE005E /* AFBOrderLeftTableView.m in Sources */,
 				0A06FB851DE15F6700745666 /* AFBHomeBodySecondCell.m in Sources */,
+
+				2192AE191DE156CC00B3AEA1 /* AFBDownLoadManager.m in Sources */,
+
 				23382E5E1DE0678100551066 /* UIView+Addition.m in Sources */,
 				23382E581DE0678100551066 /* NSObject+Addition.m in Sources */,
-				321E92A91DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.m in Sources */,
 				23382E601DE0678100551066 /* UIViewController+Addition.m in Sources */,
 				23382E5F1DE0678100551066 /* UIView+Frame.m in Sources */,
 				23382E5A1DE0678100551066 /* UIButton+Addition.m in Sources */,
@@ -564,11 +514,8 @@
 				0A1A577E1DE1486E009689F3 /* AFBHomeFlowLyout.m in Sources */,
 				21A105A91DE0414200A92BAE /* AFBHomeController.m in Sources */,
 				21BC602A1DDF1FA9003CC1C4 /* LoveFreshBee.xcdatamodeld in Sources */,
-				23E1724A1DE13E8100BF5D57 /* NSAttributedString+Addition.m in Sources */,
 				23382E591DE0678100551066 /* NSString+sandBox.m in Sources */,
 				23382E5D1DE0678100551066 /* UIScreen+Addition.m in Sources */,
-				321B6BAA1DE07A0500B16A0F /* AFBOrderRightCell.m in Sources */,
-				23054C301DE0AB6C00EE005E /* AFBOrderLeftCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,6 +628,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = LoveFreshBee/AFB.pch;
 				INFOPLIST_FILE = LoveFreshBee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaozhijia.LoveFreshBee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -694,6 +642,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = LoveFreshBee/AFB.pch;
 				INFOPLIST_FILE = LoveFreshBee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaozhijia.LoveFreshBee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
