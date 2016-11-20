@@ -29,7 +29,7 @@
     CGSize size = increaseAndReduceView.bounds.size;
     [increaseAndReduceView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.size.mas_equalTo(size);
-        make.right.bottom.equalTo(self).offset(8);
+        make.right.bottom.equalTo(self).offset(-8);
     }];
     
 }
