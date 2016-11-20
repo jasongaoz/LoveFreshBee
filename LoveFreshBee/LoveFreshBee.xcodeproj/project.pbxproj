@@ -38,6 +38,8 @@
 		321B6BAA1DE07A0500B16A0F /* AFBOrderRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B6BA61DE07A0500B16A0F /* AFBOrderRightCell.m */; };
 		321B6BAB1DE07A0500B16A0F /* AFBOrderRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321B6BA71DE07A0500B16A0F /* AFBOrderRightCell.xib */; };
 		321B6BAC1DE07A0500B16A0F /* AFBOrderRightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B6BA91DE07A0500B16A0F /* AFBOrderRightTableView.m */; };
+		321E92A91DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E92A81DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.m */; };
+		321E92AB1DE1221000FC6B20 /* AFBOrderIncreaseAndReduceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321E92AA1DE1221000FC6B20 /* AFBOrderIncreaseAndReduceView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +107,9 @@
 		321B6BA71DE07A0500B16A0F /* AFBOrderRightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFBOrderRightCell.xib; sourceTree = "<group>"; };
 		321B6BA81DE07A0500B16A0F /* AFBOrderRightTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderRightTableView.h; sourceTree = "<group>"; };
 		321B6BA91DE07A0500B16A0F /* AFBOrderRightTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderRightTableView.m; sourceTree = "<group>"; };
+		321E92A71DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderIncreaseAndReduceView.h; sourceTree = "<group>"; };
+		321E92A81DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderIncreaseAndReduceView.m; sourceTree = "<group>"; };
+		321E92AA1DE1221000FC6B20 /* AFBOrderIncreaseAndReduceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFBOrderIncreaseAndReduceView.xib; sourceTree = "<group>"; };
 		B8C0B942AAAF476A01AE2662 /* Pods-LoveFreshBee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBee/Pods-LoveFreshBee.debug.xcconfig"; sourceTree = "<group>"; };
 		D74C517ACC8EA77E0AC85EE6 /* libPods-LoveFreshBee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoveFreshBee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -336,6 +341,9 @@
 				321B6BA51DE07A0500B16A0F /* AFBOrderRightCell.h */,
 				321B6BA61DE07A0500B16A0F /* AFBOrderRightCell.m */,
 				321B6BA71DE07A0500B16A0F /* AFBOrderRightCell.xib */,
+				321E92A71DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.h */,
+				321E92A81DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.m */,
+				321E92AA1DE1221000FC6B20 /* AFBOrderIncreaseAndReduceView.xib */,
 				321B6BA81DE07A0500B16A0F /* AFBOrderRightTableView.h */,
 				321B6BA91DE07A0500B16A0F /* AFBOrderRightTableView.m */,
 				23054C2E1DE0AB6C00EE005E /* AFBOrderLeftCell.h */,
@@ -428,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21BC602F1DDF1FA9003CC1C4 /* LaunchScreen.storyboard in Resources */,
+				321E92AB1DE1221000FC6B20 /* AFBOrderIncreaseAndReduceView.xib in Resources */,
 				21BC602C1DDF1FA9003CC1C4 /* Assets.xcassets in Resources */,
 				321B6BAB1DE07A0500B16A0F /* AFBOrderRightCell.xib in Resources */,
 			);
@@ -503,6 +512,7 @@
 				23054C361DE0AE1300EE005E /* AFBOrderLeftTableView.m in Sources */,
 				23382E5E1DE0678100551066 /* UIView+Addition.m in Sources */,
 				23382E581DE0678100551066 /* NSObject+Addition.m in Sources */,
+				321E92A91DE121F900FC6B20 /* AFBOrderIncreaseAndReduceView.m in Sources */,
 				23382E601DE0678100551066 /* UIViewController+Addition.m in Sources */,
 				23382E5F1DE0678100551066 /* UIView+Frame.m in Sources */,
 				23382E5A1DE0678100551066 /* UIButton+Addition.m in Sources */,
