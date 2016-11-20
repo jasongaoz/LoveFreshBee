@@ -32,10 +32,10 @@ static NSString *orderLeftCellID = @"orderLeftCellID";
 - (void)setupUI{
     self.navigationItem.title = @"闪送超市";
     self.view.backgroundColor = [UIColor grayColor];
-
+    
     [self addTableView];
     [self addNavigationItem];
-   
+    
 }
 
 //MARK:添加 设置NavigationItem
@@ -110,8 +110,9 @@ static NSString *orderLeftCellID = @"orderLeftCellID";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (tableView == _leftTableView) {
         NSLog(@"如果点击的是左侧cell,切换数据源,当前切换到数据源%zd",indexPath.row+1);
+    }else{
+        NSLog(@"push到相对应页面");
     }
-    NSLog(@"push到相对应页面");
 }
 
 #pragma mark - 实现数据源方法
@@ -143,9 +144,9 @@ static NSString *orderLeftCellID = @"orderLeftCellID";
         cellID = orderRightCellID;
     }
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
-
+    
     return cell;
-   
+    
 }
 
 /*
