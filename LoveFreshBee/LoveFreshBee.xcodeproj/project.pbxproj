@@ -12,7 +12,6 @@
 		21A1059E1DE0410700A92BAE /* AFBBaseNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105991DE0410600A92BAE /* AFBBaseNavgationController.m */; };
 		21A1059F1DE0410700A92BAE /* AFBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A1059B1DE0410600A92BAE /* AFBBaseViewController.m */; };
 		21A105A01DE0410700A92BAE /* AFBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A1059D1DE0410600A92BAE /* AFBTabBarController.m */; };
-		21A105A31DE0411D00A92BAE /* AFBMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A21DE0411D00A92BAE /* AFBMineController.m */; };
 		21A105A61DE0413300A92BAE /* AFBShopCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A51DE0413300A92BAE /* AFBShopCarController.m */; };
 		21A105A91DE0414200A92BAE /* AFBHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A81DE0414200A92BAE /* AFBHomeController.m */; };
 		21A105AC1DE0416900A92BAE /* AFBOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A105AB1DE0416900A92BAE /* AFBOrderController.m */; };
@@ -36,6 +35,8 @@
 		23382E5F1DE0678100551066 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382E521DE0678100551066 /* UIView+Frame.m */; };
 		23382E601DE0678100551066 /* UIViewController+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382E541DE0678100551066 /* UIViewController+Addition.m */; };
 		23E1724A1DE13E8100BF5D57 /* NSAttributedString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E172491DE13E8100BF5D57 /* NSAttributedString+Addition.m */; };
+		2AD53AA31DE149D40061057A /* AFBMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD53A9F1DE149D40061057A /* AFBMineController.m */; };
+		2AD53AA41DE149D40061057A /* AFBMineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD53AA21DE149D40061057A /* AFBMineTableViewCell.m */; };
 		321B6BAA1DE07A0500B16A0F /* AFBOrderRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B6BA61DE07A0500B16A0F /* AFBOrderRightCell.m */; };
 		321B6BAB1DE07A0500B16A0F /* AFBOrderRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321B6BA71DE07A0500B16A0F /* AFBOrderRightCell.xib */; };
 		321B6BAC1DE07A0500B16A0F /* AFBOrderRightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B6BA91DE07A0500B16A0F /* AFBOrderRightTableView.m */; };
@@ -54,8 +55,6 @@
 		21A1059B1DE0410600A92BAE /* AFBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBaseViewController.m; sourceTree = "<group>"; };
 		21A1059C1DE0410600A92BAE /* AFBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBTabBarController.h; sourceTree = "<group>"; };
 		21A1059D1DE0410600A92BAE /* AFBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBTabBarController.m; sourceTree = "<group>"; };
-		21A105A11DE0411D00A92BAE /* AFBMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBMineController.h; sourceTree = "<group>"; };
-		21A105A21DE0411D00A92BAE /* AFBMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBMineController.m; sourceTree = "<group>"; };
 		21A105A41DE0413300A92BAE /* AFBShopCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBShopCarController.h; sourceTree = "<group>"; };
 		21A105A51DE0413300A92BAE /* AFBShopCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBShopCarController.m; sourceTree = "<group>"; };
 		21A105A71DE0414100A92BAE /* AFBHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBHomeController.h; sourceTree = "<group>"; };
@@ -103,6 +102,10 @@
 		23382E541DE0678100551066 /* UIViewController+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Addition.m"; sourceTree = "<group>"; };
 		23E172481DE13E8100BF5D57 /* NSAttributedString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Addition.h"; sourceTree = "<group>"; };
 		23E172491DE13E8100BF5D57 /* NSAttributedString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Addition.m"; sourceTree = "<group>"; };
+		2AD53A9E1DE149D40061057A /* AFBMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBMineController.h; sourceTree = "<group>"; };
+		2AD53A9F1DE149D40061057A /* AFBMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBMineController.m; sourceTree = "<group>"; };
+		2AD53AA11DE149D40061057A /* AFBMineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBMineTableViewCell.h; sourceTree = "<group>"; };
+		2AD53AA21DE149D40061057A /* AFBMineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBMineTableViewCell.m; sourceTree = "<group>"; };
 		321B6BA51DE07A0500B16A0F /* AFBOrderRightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBOrderRightCell.h; sourceTree = "<group>"; };
 		321B6BA61DE07A0500B16A0F /* AFBOrderRightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBOrderRightCell.m; sourceTree = "<group>"; };
 		321B6BA71DE07A0500B16A0F /* AFBOrderRightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFBOrderRightCell.xib; sourceTree = "<group>"; };
@@ -193,19 +196,11 @@
 		21A105751DE01E5700A92BAE /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
-				21A105761DE01E5700A92BAE /* Controllers */,
+				2AD53A9D1DE149D40061057A /* Controllers */,
+				2AD53AA01DE149D40061057A /* Views */,
 			);
 			name = "Mine(我的)";
 			path = Mine;
-			sourceTree = "<group>";
-		};
-		21A105761DE01E5700A92BAE /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				21A105A11DE0411D00A92BAE /* AFBMineController.h */,
-				21A105A21DE0411D00A92BAE /* AFBMineController.m */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		21A1057A1DE01E5700A92BAE /* ShopCar(购物车) */ = {
@@ -334,6 +329,24 @@
 				23382E541DE0678100551066 /* UIViewController+Addition.m */,
 			);
 			path = AY_Addition;
+			sourceTree = "<group>";
+		};
+		2AD53A9D1DE149D40061057A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2AD53A9E1DE149D40061057A /* AFBMineController.h */,
+				2AD53A9F1DE149D40061057A /* AFBMineController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2AD53AA01DE149D40061057A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AD53AA11DE149D40061057A /* AFBMineTableViewCell.h */,
+				2AD53AA21DE149D40061057A /* AFBMineTableViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		321B6BA41DE07A0500B16A0F /* Views */ = {
@@ -500,7 +513,6 @@
 			files = (
 				23054C391DE0AF2500EE005E /* AFBBaseTableView.m in Sources */,
 				1B8CB2E01DE0811D0021A7DC /* AFBHomeHeaderView.m in Sources */,
-				21A105A31DE0411D00A92BAE /* AFBMineController.m in Sources */,
 				21BC60211DDF1FA9003CC1C4 /* AppDelegate.m in Sources */,
 				21A105AC1DE0416900A92BAE /* AFBOrderController.m in Sources */,
 				21BC601E1DDF1FA9003CC1C4 /* main.m in Sources */,
@@ -526,6 +538,8 @@
 				23382E591DE0678100551066 /* NSString+sandBox.m in Sources */,
 				23382E5D1DE0678100551066 /* UIScreen+Addition.m in Sources */,
 				321B6BAA1DE07A0500B16A0F /* AFBOrderRightCell.m in Sources */,
+				2AD53AA31DE149D40061057A /* AFBMineController.m in Sources */,
+				2AD53AA41DE149D40061057A /* AFBMineTableViewCell.m in Sources */,
 				23054C301DE0AB6C00EE005E /* AFBOrderLeftCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -639,6 +653,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = LoveFreshBee/AFB.pch;
 				INFOPLIST_FILE = LoveFreshBee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaozhijia.LoveFreshBee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -652,6 +667,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = LoveFreshBee/AFB.pch;
 				INFOPLIST_FILE = LoveFreshBee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaozhijia.LoveFreshBee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
