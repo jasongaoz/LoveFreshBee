@@ -15,5 +15,6 @@ target 'LoveFreshBee' do
   	pod 'TPKeyboardAvoiding'
   	pod 'PYSearch'
     pod 'SVProgressHUD'
+    pod 'SDCycleScrollView'
 	
 end
